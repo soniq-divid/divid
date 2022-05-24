@@ -3757,11 +3757,11 @@ msgstr "Solution complète pour l'impression 3D par dépôt de filament fondu."
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
-"Cura proudly uses the following open source projects:"
+"Divid is developed by Zmorph in cooperation with the community.\n"
+"Divid proudly uses the following open source projects:"
 msgstr ""
-"Cura a été développé par Ultimaker B.V. en coopération avec la communauté Ultimaker.\n"
-"Cura est fier d'utiliser les projets open source suivants :"
+"Divid a été développé par Zmorph en coopération avec la communauté Ultimaker.\n"
+"Divid est fier d'utiliser les projets open source suivants :"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:135
 msgctxt "@label"

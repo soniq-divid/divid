@@ -3747,11 +3747,11 @@ msgstr "熔丝 3D 打印技术的的端对端解决方案。"
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
-"Cura proudly uses the following open source projects:"
+"Divid is developed by Zmorph in cooperation with the community.\n"
+"Divid proudly uses the following open source projects:"
 msgstr ""
-"Cura 由 Ultimaker B.V. 与社区合作开发。\n"
-"Cura 使用以下开源项目："
+"Divid 由 Zmorph 与社区合作开发。\n"
+"Divid 使用以下开源项目："
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:135
 msgctxt "@label"

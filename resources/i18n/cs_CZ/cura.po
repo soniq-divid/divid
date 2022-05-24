@@ -3768,11 +3768,11 @@ msgstr "Komplexní řešení pro 3D tisk z taveného filamentu."
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
-"Cura proudly uses the following open source projects:"
+"Divid is developed by Zmorph in cooperation with the community.\n"
+"Divid proudly uses the following open source projects:"
 msgstr ""
-"Cura vyvíjí Ultimaker B.V. ve spolupráci s komunitou.\n"
-"Cura hrdě používá následující open source projekty:"
+"Divid vyvíjí Zmorph ve spolupráci s komunitou.\n"
+"Divid hrdě používá následující open source projekty:"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:135
 msgctxt "@label"

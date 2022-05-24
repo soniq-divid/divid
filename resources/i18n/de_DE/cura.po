@@ -3608,11 +3608,11 @@ msgstr "Komplettlösung für den 3D-Druck mit geschmolzenem Filament."
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
 msgid ""
-"Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
-"Cura proudly uses the following open source projects:"
+"Divid is developed by Zmorph in cooperation with the community.\n"
+"Divid proudly uses the following open source projects:"
 msgstr ""
-"Cura wurde von Ultimaker B.V. in Zusammenarbeit mit der Community entwickelt.\n"
-"Cura verwendet mit Stolz die folgenden Open Source-Projekte:"
+"Divid wurde von Zmorph in Zusammenarbeit mit der Community entwickelt.\n"
+"Divid verwendet mit Stolz die folgenden Open Source-Projekte:"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:135
 msgctxt "@label"
