@@ -1,4 +1,4 @@
-module Cura
+module Divid
 
 MachineSelector 1.0 MachineSelector.qml
 MachineSelectorButton 1.0 MachineSelectorButton.qml
