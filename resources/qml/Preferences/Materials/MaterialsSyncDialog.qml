@@ -142,18 +142,18 @@ Window
                     Layout.maximumWidth: width
                     Layout.preferredHeight: height
                 }
-                Item
-                {
-                    Layout.preferredWidth: parent.width
-                    Layout.fillHeight: true
-                    Image
-                    {
-                        source: UM.Theme.getImage("first_run_ultimaker_cloud")
-                        width: parent.width / 2
-                        sourceSize.width: width
-                        anchors.centerIn: parent
-                    }
-                }
+                // Item
+                // {
+                //     Layout.preferredWidth: parent.width
+                //     Layout.fillHeight: true
+                //     Image
+                //     {
+                //         source: UM.Theme.getImage("first_run_ultimaker_cloud")
+                //         width: parent.width / 2
+                //         sourceSize.width: width
+                //         anchors.centerIn: parent
+                //     }
+                // }
                 Item
                 {
                     width: parent.width
