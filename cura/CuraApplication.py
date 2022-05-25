@@ -9,7 +9,7 @@ from typing import cast, TYPE_CHECKING, Optional, Callable, List, Any, Dict
 
 import numpy
 from PyQt5.QtCore import QObject, QTimer, QUrl, pyqtSignal, pyqtProperty, QEvent, Q_ENUMS
-from PyQt5.QtGui import QColor, QIcon
+from PyQt5.QtGui import QColor, QIcon, QPalette
 from PyQt5.QtQml import qmlRegisterUncreatableType, qmlRegisterSingletonType, qmlRegisterType
 from PyQt5.QtWidgets import QMessageBox
 
@@ -909,6 +909,11 @@ class CuraApplication(QtApplication):
 
         # Set default background color for scene
         self.getRenderer().setBackgroundColor(QColor(245, 245, 245))
+        # Set default selected background color
+        palette = QPalette()
+        palette.setColor(QPalette.Highlight, QColor((32, 45, 53, 25)))
+        Application.setPalette(palette)
+
         self.processEvents()
         # Initialize platform physics
         self._physics = PlatformPhysics.PlatformPhysics(controller, self._volume)
