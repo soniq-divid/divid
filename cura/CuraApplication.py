@@ -911,7 +911,7 @@ class CuraApplication(QtApplication):
         self.getRenderer().setBackgroundColor(QColor(245, 245, 245))
         # Set default selected background color
         palette = QPalette()
-        palette.setColor(QPalette.Highlight, QColor((32, 45, 53, 25)))
+        palette.setColor(QPalette.Highlight, QColor(32, 45, 53))
         Application.setPalette(palette)
 
         self.processEvents()
