@@ -1,17 +1,17 @@
 [4.13.0]
-<i>For an overview of the new features in Cura 4.13, please watch <a href="https://youtu.be/chvAuI6Eqto">our video</a>.</i>
+<i>For an overview of the new features in Divid 4.13, please watch <a href="https://youtu.be/chvAuI6Eqto">our video</a>.</i>
 
 * Sync material profiles 
-With Ultimaker Cura 4.13, we give you access to a seamless material experience for Ultimaker Material Alliance materials – with the ease of use you’ve come to expect from Ultimaker materials. You can easily synchronize your Material Alliance profiles with your S-line Ultimaker hardware, at the click of a button. 
+With Zmorph Divid 4.13, we give you access to a seamless material experience for Zmorph Material Alliance materials – with the ease of use you’ve come to expect from Zmorph materials. You can easily synchronize your Material Alliance profiles with your S-line Zmorph hardware, at the click of a button. 
 
 * New print profile
-A new print profile with 0.3mm layer height for PLA Tough PLA, PVA and BAM for Ultimaker S-line printers
+A new print profile with 0.3mm layer height for PLA Tough PLA, PVA and BAM for Zmorph S-line printers
 
 * 3MF thumbnail
 Show the model in the thumbnail of a .3mf file, contributed by fieldOfView
 
 * Infill density
-When printing with a 100% infill the infill pattern will change to ZigZag for all Ultimaker print profiles
+When printing with a 100% infill the infill pattern will change to ZigZag for all Zmorph print profiles
 
 * User login authentication
 We’ve streamlined the user login authentication by removing any restrictions, especially for strict enterprise-level IT requirements. 
@@ -19,7 +19,7 @@ We’ve streamlined the user login authentication by removing any restrictions, 
 * Other new features and improvements:
 - Improved TPU: top layers have large bridge distance 
 - Add warning icon to show which extruder is causing the configuration to be 'Not Supported', contributed by fieldOfView
-- Show what's new pages with every Cura build
+- Show what's new pages with every Divid build
 - Speed up loading of settings list
 - Re-use vertex buffer objects in rendering
 - Add Build Volume Temperature value to ChangeAtZ, contributed by legend069
@@ -68,22 +68,22 @@ We’ve streamlined the user login authentication by removing any restrictions, 
 - Fixed a bug in Lightning infill where the infill was printed multiple times under certain circumstances
 
 [4.12.0]
-<i>For an overview of the new features in Cura 4.12, please watch <a href="https://youtu.be/CjFRT6Txn3U">our video</a>.</i>
+<i>For an overview of the new features in Divid 4.12, please watch <a href="https://youtu.be/CjFRT6Txn3U">our video</a>.</i>
 
 * Lightning infill
 The new lightning infill setting lets you to print high-quality top layers but is optimized to use less material and increase your production speed. Special thanks to rburema and BagelOrb!
 
 * Improved top surface quality
-We’ve tweaked the Monotonic setting and made adjustments throughout Ultimaker print profiles. This removes occasional scarring on models and improves top surface quality by default. 
+We’ve tweaked the Monotonic setting and made adjustments throughout Zmorph print profiles. This removes occasional scarring on models and improves top surface quality by default. 
 
 * Improved horizontal print quality
 Resulting in reduction of ringing, improving resolution and overall print quality.  
 
 * App switcher
-The new switcher provides a simpler way to navigate and use other Ultimaker applications, including Ultimaker Digital Factory, Ultimaker Marketplace, and Ultimaker 3D Printing Academy. Reporting bugs to Github is now just one click away, and it’s easier to find the application you need.
+The new switcher provides a simpler way to navigate and use other Zmorph applications, including Zmorph Digital Factory, Zmorph Marketplace, and Zmorph 3D Printing Academy. Reporting bugs to Github is now just one click away, and it’s easier to find the application you need.
 
 * Faster start-up
-We've shaved 10 seconds from Ultimaker Cura's start-up time by optimizing profile data caching.
+We've shaved 10 seconds from Zmorph Divid's start-up time by optimizing profile data caching.
 
 * Other new features:
 - Moved the skip button to the left bottom on the sign in onboarding page and replaced with the sign in button and Create new account
@@ -134,22 +134,22 @@ We've shaved 10 seconds from Ultimaker Cura's start-up time by optimizing profil
 - Infill before walls order doesn't respect the order when Lightning is enabled
 
 [4.11.0]
-<i>For an overview of the new features in Cura 4.11, please watch <a href="https://youtu.be/OcFkcDyO5DU">our video</a>.</i>
+<i>For an overview of the new features in Divid 4.11, please watch <a href="https://youtu.be/OcFkcDyO5DU">our video</a>.</i>
 
 * Monotonic ordering
 The new Monotonic top/bottom order setting enables users to print parts with smoother top surfaces. This is especially useful for parts that need good aesthetics, such as visual prototypes. Or for parts that benefit from smooth surfaces, such as those that contact-sensitive components. 
 
 * Complete UI refresh
-Look around and you will notice that we have refreshed over 100 icons throughout Ultimaker Cura. The new icons are designed for clarity – resulting in a simpler and more informative slicing experience. Also, when scaling the Ultimaker Cura window, the UI will adapt, resulting in less visual clutter.
+Look around and you will notice that we have refreshed over 100 icons throughout Zmorph Divid. The new icons are designed for clarity – resulting in a simpler and more informative slicing experience. Also, when scaling the Zmorph Divid window, the UI will adapt, resulting in less visual clutter.
 
 * Improved digital library integration
-Collaborative workflows using the Digital Library are now simpler. Every user with a cloud-connected Ultimaker 3D printer can access stored projects. And we have added a “Search” function to make finding files easier.
+Collaborative workflows using the Digital Library are now simpler. Every user with a cloud-connected Zmorph 3D printer can access stored projects. And we have added a “Search” function to make finding files easier.
 
 * Save materials profiles to USB
-Users can now save all third-party material profiles to USB. <i>This feature is for Ultimaker S-line printers only and is especially useful for cloud-connected (or offline) printers.</i>
+Users can now save all third-party material profiles to USB. <i>This feature is for Zmorph S-line printers only and is especially useful for cloud-connected (or offline) printers.</i>
 
 * Notifications for beta and plugin releases
-Users can now set notification preferences to alert them to new Ultimaker Cura beta and plug-in releases.
+Users can now set notification preferences to alert them to new Zmorph Divid beta and plug-in releases.
 
 * Improve logging of errors in OAuth flow
 When helping a user with log-in problems it is easier to see where the OAuth flow goes wrong.
@@ -169,11 +169,11 @@ When searching in the settings visibility menu you will also search in the descr
 - Fix CC settings for PLA
 - Fixed memory leak in Zeroconf 0.25
 - Fixed connecting USB printing with detecting baud-rates, contributed by rrrlasse
-- Fixed crash when Cura crashes on exit
+- Fixed crash when Divid crashes on exit
 - Fixed a bug where the infill goes through walls
 - Fixed the version upgrade of preferences file
 - Fixed missing icons in deprecated icons list, contributed by fieldOfView
-- Fixed a crash in CuraEngine when the prime tower is placed in an invalid position
+- Fixed a crash in DividEngine when the prime tower is placed in an invalid position
 - Fixed a bug when user is unable to sign in on Linux if a Keyring backend is installed
 - Fixed the rotation direction of the 90 degrees rotation arrows, contributed by fieldOfView
 
@@ -193,20 +193,20 @@ When searching in the settings visibility menu you will also search in the descr
 - Added Farm 2 and Farm2CE printer definitions, contributed by saliery999
 - Added GooFoo and Renkforce print definitions and GooFoo materials, contributed by goofoo3d
 
-*<i>From version 4.11 onwards - Ultimaker Cura is only supported on operating systems actively maintained by their software manufacturer or community. This means Windows 7 and MacOS 10.13 will no longer be supported. Technically this means Ultimaker will stop testing and developing for such operating systems. However, even though it is no longer supported, there is still a high likelihood the application keeps functioning.</i>
+*<i>From version 4.11 onwards - Zmorph Divid is only supported on operating systems actively maintained by their software manufacturer or community. This means Windows 7 and MacOS 10.13 will no longer be supported. Technically this means Zmorph will stop testing and developing for such operating systems. However, even though it is no longer supported, there is still a high likelihood the application keeps functioning.</i>
 
 [4.10.0]
-<i>For an overview of the new features in Cura 4.10, please watch <a href="https://www.youtube.com/watch?v=9PCVeJ_yytk">our video</a>.</i>
+<i>For an overview of the new features in Divid 4.10, please watch <a href="https://www.youtube.com/watch?v=9PCVeJ_yytk">our video</a>.</i>
 
 *Native CAD import plugin
-Ultimaker Professional and Excellence subscribers can now directly import native CAD files into Ultimaker Cura.
-Enable this feature by downloading the Native CAD import plugin from the Ultimaker marketplace. 
+Zmorph Professional and Excellence subscribers can now directly import native CAD files into Zmorph Divid.
+Enable this feature by downloading the Native CAD import plugin from the Zmorph marketplace. 
 
 *Flow visualization
 In preview mode you can now visualize the flow. Contributed by khani3s.
 
 *Show loading plugins on startup
-When starting Cura you will now see which plugins Cura is loading.
+When starting Divid you will now see which plugins Divid is loading.
 
 *Add Z position parameter to FilamentChange
 With the FilamentChange script you can now control all 3 coordinates. 
@@ -215,7 +215,7 @@ With the FilamentChange script you can now control all 3 coordinates.
 Contributed by Sekisback.
 
 *Double click on file in Digital Factory
-When double clicking on a file in the open project dialog in Digital Factory it will now open in Cura. 
+When double clicking on a file in the open project dialog in Digital Factory it will now open in Divid. 
 
 * Bug Fixes
 - Fixed temperature exceptions for UM2+C material profiles.
@@ -224,11 +224,11 @@ When double clicking on a file in the open project dialog in Digital Factory it 
 - Fixed the pause-at-height retract with Repetier-flavour.
 - Fixed erasing z-coordinate in the move tool to the value of 0. 
 - Fixed the limit range of layer view to only visible structures. 
-- Fixed a bug where Cura crashes when scaling a model on Linux. 
+- Fixed a bug where Divid crashes when scaling a model on Linux. 
 - Fixed path minimum limit. 
 - Fixed a bug when using right to left language numbers were overlaying on text in the print settings.
 - Fixed edge case with disabling bridging.
-- Fixed a bug where some names with Unicode characters crashes Cura when trying to authorize. 
+- Fixed a bug where some names with Unicode characters crashes Divid when trying to authorize. 
 - Fixed renaming groups. Contributed by fieldOfView. 
 - Fixed a bug when the seam was not placed in sharpest corner.
 - Fixed the gantry height for S-line printers. 
@@ -250,8 +250,8 @@ When double clicking on a file in the open project dialog in Digital Factory it 
 - Mingda D3, D4 and Rock3, contributed by cataclism. 
 - JGAurora A6, contributed by CrissR.
 
-*<i>Please, be aware that after version 4.10 Ultimaker Cura will only be supported on operating systems actively maintained by their software manufacturer or community. This means Windows 7 and MacOS 10.13 will no longer be supported. Technically this means Ultimaker will stop testing and developing for such operating systems. However, even though it is no longer supported, there is still a high likelihood the application keeps functioning.</i>
+*<i>Please, be aware that after version 4.10 Zmorph Divid will only be supported on operating systems actively maintained by their software manufacturer or community. This means Windows 7 and MacOS 10.13 will no longer be supported. Technically this means Zmorph will stop testing and developing for such operating systems. However, even though it is no longer supported, there is still a high likelihood the application keeps functioning.</i>
 
 [4.9.1]
 
-The release notes of versions &lt;= 4.9.1 can be found in our <a href="https://github.com/Ultimaker/Cura/releases?page=2">releases GitHub page</a>.
+The release notes of versions &lt;= 4.9.1 can be found in our <a href="https://github.com/Zmorph/Divid/releases?page=2">releases GitHub page</a>.

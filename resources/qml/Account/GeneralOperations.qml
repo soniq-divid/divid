@@ -17,21 +17,21 @@ Column
         id: title
         anchors.horizontalCenter: parent.horizontalCenter
         renderType: Text.NativeRendering
-        text: catalog.i18nc("@label",  "Sign in to the Ultimaker platform")
+        text: catalog.i18nc("@label",  "Sign in to the Zmorph platform")
         font: UM.Theme.getFont("large_bold")
         color: UM.Theme.getColor("text")
     }
 
-    Image
-    {
-        id: machinesImage
-        anchors.horizontalCenter: parent.horizontalCenter
-        source: UM.Theme.getImage("welcome_cura")
-        width: parent.width / 2
-        fillMode: Image.PreserveAspectFit
-        horizontalAlignment: Image.AlignHCenter
-        verticalAlignment: Image.AlignVCenter
-    }
+    // Image
+    // {
+    //     id: machinesImage
+    //     anchors.horizontalCenter: parent.horizontalCenter
+    //     source: UM.Theme.getImage("welcome_cura")
+    //     width: parent.width / 2
+    //     fillMode: Image.PreserveAspectFit
+    //     horizontalAlignment: Image.AlignHCenter
+    //     verticalAlignment: Image.AlignVCenter
+    // }
 
     Label
     {
@@ -51,7 +51,7 @@ Column
         width: UM.Theme.getSize("account_button").width
         height: UM.Theme.getSize("account_button").height
         text: catalog.i18nc("@button", "Sign in")
-        onClicked: Cura.API.account.login()
+        // onClicked: Cura.API.account.login()
         fixedWidthMode: true
     }
 
@@ -59,7 +59,7 @@ Column
     {
         anchors.horizontalCenter: parent.horizontalCenter
         height: UM.Theme.getSize("account_button").height
-        text: catalog.i18nc("@button", "Create a free Ultimaker account")
-        onClicked: Qt.openUrlExternally("https://ultimaker.com/app/ultimaker-cura-account-sign-up?utm_source=cura&utm_medium=software&utm_campaign=menu-signup")
+        text: catalog.i18nc("@button", "Create a free Zmorph account")
+        onClicked: Qt.openUrlExternally("https://zmorph3d.com/")
     }
 }
