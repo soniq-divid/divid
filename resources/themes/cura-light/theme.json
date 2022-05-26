@@ -304,9 +304,9 @@
 
         "setting_category": [240, 240, 240, 255],
         "setting_category_disabled": [255, 255, 255, 255],
-        "setting_category_hover": [32, 45, 53, 25],
+        "setting_category_hover": [232, 242, 252, 255],
         "setting_category_active": [240, 240, 240, 255],
-        "setting_category_active_hover": [232, 242, 252, 25],
+        "setting_category_active_hover": [232, 242, 252, 255],
         "setting_category_text": [35, 35, 35, 255],
         "setting_category_disabled_text": [24, 41, 77, 101],
         "setting_category_active_text": [35, 35, 35, 255],
@@ -388,7 +388,7 @@
         "all_axis": [255, 255, 255, 255],
 
         "viewport_background": [193, 194, 196, 20],
-        "volume_outline": [32, 45, 53, 255],
+        "volume_outline": [50, 130, 255, 255],
         "buildplate": [244, 244, 244, 255],
         "buildplate_grid": [129, 131, 134, 255],
         "buildplate_grid_minor": [230, 230, 231, 255],
