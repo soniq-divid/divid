@@ -388,7 +388,7 @@
         "all_axis": [255, 255, 255, 255],
 
         "viewport_background": [193, 194, 196, 20],
-        "volume_outline": [50, 130, 255, 255],
+        "volume_outline": [32, 45, 53, 255],
         "buildplate": [244, 244, 244, 255],
         "buildplate_grid": [129, 131, 134, 255],
         "buildplate_grid_minor": [230, 230, 231, 255],
