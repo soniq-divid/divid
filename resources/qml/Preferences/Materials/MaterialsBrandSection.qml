@@ -51,6 +51,8 @@ Item
             width: parent.width - UM.Theme.getSize("favorites_button").width
             verticalAlignment: Text.AlignVCenter
             leftPadding: (UM.Theme.getSize("default_margin").width / 2) | 0
+            font: UM.Theme.getFont("default")
+            color: UM.Theme.getColor("favorites_header_text_active")
         }
         Item
         {
@@ -65,7 +67,7 @@ Item
                 }
                 width: UM.Theme.getSize("standard_arrow").width
                 height: UM.Theme.getSize("standard_arrow").height
-                color: "white"
+                color: "black"
                 source: brand_section.expanded ? UM.Theme.getIcon("ChevronSingleDown") : UM.Theme.getIcon("ChevronSingleLeft")
             }
         }
