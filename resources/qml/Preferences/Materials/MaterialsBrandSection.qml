@@ -65,18 +65,7 @@ Item
                 }
                 width: UM.Theme.getSize("standard_arrow").width
                 height: UM.Theme.getSize("standard_arrow").height
-                font: UM.Theme.getFont("default")
-                color:
-                {
-                    if(!expanded && sectionName == materialList.currentBrand)
-                    {
-                        return UM.Theme.getColor("favorites_header_text_active")
-                    }
-                    else
-                    {
-                        return UM.Theme.getColor("favorites_header_bar")
-                    }
-                }
+                color: UM.Theme.getColor("favorites_header_text_active")
                 source: brand_section.expanded ? UM.Theme.getIcon("ChevronSingleDown") : UM.Theme.getIcon("ChevronSingleLeft")
             }
         }
