@@ -189,7 +189,8 @@ UM.PreferencesPage
         }
 
         UM.I18nCatalog { name: "cura"; }
-        SystemPalette { id: palette; }
+        SystemPalette { id: palette
+        colorGroup: SystemPalette.Active; }
 
         Component
         {

@@ -51,6 +51,17 @@ Item
             width: parent.width - UM.Theme.getSize("favorites_button").width
             verticalAlignment: Text.AlignVCenter
             leftPadding: (UM.Theme.getSize("default_margin").width / 2) | 0
+            color:
+            {
+                if(!expanded && sectionName == materialList.currentBrand)
+                {
+                    return UM.Theme.getColor("favorites_header_text_active")
+                }
+                else
+                {
+                    return UM.Theme.getColor("favorites_header_text")
+                }
+            }
         }
         Item
         {
