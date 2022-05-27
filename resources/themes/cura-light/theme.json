@@ -304,7 +304,7 @@
 
         "setting_category": [240, 240, 240, 255],
         "setting_category_disabled": [255, 255, 255, 255],
-        "setting_category_hover": [32, 45, 53, 27],
+        "setting_category_hover": [32, 45, 53, 25],
         "setting_category_active": [240, 240, 240, 255],
         "setting_category_active_hover": [232, 242, 252, 255],
         "setting_category_text": [35, 35, 35, 255],
@@ -531,7 +531,7 @@
         "default_lining": [0.08, 0.08],
 
         "default_arrow": [0.8, 0.8],
-        "logo": [12, 3.5],
+        "logo": [16, 3.5],
 
         "wide_margin": [2.0, 2.0],
         "thick_margin": [1.71, 1.43],
