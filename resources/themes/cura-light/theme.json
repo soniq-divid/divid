@@ -304,7 +304,7 @@
 
         "setting_category": [240, 240, 240, 255],
         "setting_category_disabled": [255, 255, 255, 255],
-        "setting_category_hover": [32, 45, 53, 255],
+        "setting_category_hover": [32, 45, 53, 127],
         "setting_category_active": [240, 240, 240, 255],
         "setting_category_active_hover": [232, 242, 252, 255],
         "setting_category_text": [35, 35, 35, 255],
@@ -436,10 +436,9 @@
 
         "favorites_header_bar": [245, 245, 245, 255],
         "favorites_header_hover": [245, 245, 245, 255],
-        "favorites_header_text": [0, 0, 0, 255],
-        "favorites_header_text_active": [255, 255, 255, 255],
+        "favorites_header_text": [31, 36, 39, 255],
         "favorites_header_text_hover": [31, 36, 39, 255],
-        "favorites_row_selected": [32, 45, 53, 255],
+        "favorites_row_selected": [32, 45, 53, 127],
 
         "monitor_printer_family_tag": [228, 228, 242, 255],
         "monitor_text_disabled": [238, 238, 238, 255],
