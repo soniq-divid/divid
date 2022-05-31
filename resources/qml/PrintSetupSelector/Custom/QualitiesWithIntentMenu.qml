@@ -255,13 +255,13 @@ Popup
             }
         }
 
-        Rectangle
-        {
-            height: UM.Theme.getSize("default_lining").width
-            anchors.left: parent.left
-            anchors.right: parent.right
-            color: borderColor
-        }
+        // Rectangle
+        // {
+        //     height: UM.Theme.getSize("default_lining").width
+        //     anchors.left: parent.left
+        //     anchors.right: parent.right
+        //     color: borderColor
+        // }
 
         MenuButton
         {
@@ -273,7 +273,7 @@ Popup
                 right: parent.right
             }
 
-            // height: textLabel.contentHeight + 2 * UM.Theme.getSize("narrow_margin").height
+            height: textLabel.contentHeight + 2 * UM.Theme.getSize("narrow_margin").height
 
             contentItem: Item
             {
