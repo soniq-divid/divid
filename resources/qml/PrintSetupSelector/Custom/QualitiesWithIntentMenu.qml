@@ -255,13 +255,13 @@ Popup
             }
         }
 
-        // Rectangle
-        // {
-        //     height: UM.Theme.getSize("default_lining").width
-        //     anchors.left: parent.left
-        //     anchors.right: parent.right
-        //     color: borderColor
-        // }
+        Rectangle
+        {
+            height: UM.Theme.getSize("default_lining").width
+            anchors.left: parent.left
+            anchors.right: parent.right
+            color: borderColor
+        }
 
         MenuButton
         {
@@ -310,6 +310,13 @@ Popup
                 popup.visible = false
                 Cura.Actions.manageProfiles.trigger()
             }
+        }
+        Rectangle
+        {
+            height: UM.Theme.getSize("default_lining").width
+            anchors.left: parent.left
+            anchors.right: parent.right
+            color: borderColor
         }
         // spacer
         Item
