@@ -502,7 +502,7 @@
         "print_setup_slider_handle": [1.0, 1.0],
         "print_setup_slider_tickmarks": [0.32, 0.32],
         "print_setup_big_item": [28, 2.5],
-        "print_setup_icon": [1.2, 1.2],
+        "print_setup_icon": [1, 1],
         "drag_icon": [1.416, 0.25],
 
         "application_switcher_item": [8, 9],

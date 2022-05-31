@@ -81,19 +81,19 @@ RowLayout
         }
     }
 
-    Cura.IconWithText
-    {
-        source: UM.Theme.getIcon("Adhesion")
-        text: platformAdhesionType.properties.value != "skirt" && platformAdhesionType.properties.value != "none" ? enabledText : disabledText
-        font: UM.Theme.getFont("medium")
-        iconSize: UM.Theme.getSize("medium_button_icon").width
+    // Cura.IconWithText
+    // {
+    //     source: UM.Theme.getIcon("Adhesion")
+    //     text: platformAdhesionType.properties.value != "skirt" && platformAdhesionType.properties.value != "none" ? enabledText : disabledText
+    //     font: UM.Theme.getFont("medium")
+    //     iconSize: UM.Theme.getSize("medium_button_icon").width
 
-        UM.SettingPropertyProvider
-        {
-            id: platformAdhesionType
-            containerStack: Cura.MachineManager.activeMachine
-            key: "adhesion_type"
-            watchedProperties: [ "value"]
-        }
-    }
+    //     UM.SettingPropertyProvider
+    //     {
+    //         id: platformAdhesionType
+    //         containerStack: Cura.MachineManager.activeMachine
+    //         key: "adhesion_type"
+    //         watchedProperties: [ "value"]
+    //     }
+    // }
 }
