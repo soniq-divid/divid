@@ -273,7 +273,7 @@ Popup
                 right: parent.right
             }
 
-            height: textLabel.contentHeight + 2 * UM.Theme.getSize("narrow_margin").height
+            // height: textLabel.contentHeight + 2 * UM.Theme.getSize("narrow_margin").height
 
             contentItem: Item
             {
