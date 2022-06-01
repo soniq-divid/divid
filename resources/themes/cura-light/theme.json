@@ -439,7 +439,7 @@
         "favorites_header_text": [31, 36, 39, 255],
         "favorites_header_text_hover": [31, 36, 39, 255],
         "favorites_header_text_active": [255, 255, 255, 255],
-        "favorites_row_selected": [32, 45, 53, 255],
+        "favorites_row_selected": [32, 45, 53, 100],
 
         "monitor_printer_family_tag": [228, 228, 242, 255],
         "monitor_text_disabled": [238, 238, 238, 255],
