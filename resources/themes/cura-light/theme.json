@@ -233,7 +233,7 @@
         "text_detail": [32, 45, 53, 128],
         "text_link": [32, 45, 53, 255],
         "text_inactive": [174, 174, 174, 255],
-        "text_pressed": [50, 130, 255, 255],
+        "text_pressed": [32, 45, 53, 255],
         "text_subtext": [0, 0, 0, 255],
         "text_medium": [32, 45, 53, 255],
         "text_emphasis": [32, 45, 53, 255],
@@ -315,7 +315,7 @@
         "setting_category_border": [240, 240, 240, 255],
         "setting_category_disabled_border": [240, 240, 240, 255],
         "setting_category_hover_border": [32, 45, 53, 255],
-        "setting_category_active_border": [50, 130, 255, 255],
+        "setting_category_active_border": [32, 45, 53, 255],
         "setting_category_active_hover_border": [32, 45, 53, 255],
 
         "setting_control": [255, 255, 255, 255],
@@ -376,7 +376,7 @@
 
         "status_offline": [0, 0, 0, 255],
         "status_ready": [0, 205, 0, 255],
-        "status_busy": [50, 130, 255, 255],
+        "status_busy": [32, 45, 53, 255],
         "status_paused": [255, 140, 0, 255],
         "status_stopped": [236, 82, 80, 255],
         "status_unknown": [127, 127, 127, 255],
@@ -425,10 +425,10 @@
         "layerview_nozzle": [224, 192, 16, 64],
         "layerview_starts": [255, 255, 255, 255],
 
-        "tab_status_connected": [50, 130, 255, 255],
+        "tab_status_connected": [32, 45, 53, 255],
         "tab_status_disconnected": [200, 200, 200, 255],
 
-        "printer_config_matched": [50, 130, 255, 255],
+        "printer_config_matched": [32, 45, 53, 255],
         "printer_config_mismatch": [127, 127, 127, 255],
 
         "toolbox_header_button_text_inactive": [0, 0, 0, 255],
