@@ -49,7 +49,6 @@ Item
             text: sectionName
             height: UM.Theme.getSize("favorites_row").height
             width: parent.width - UM.Theme.getSize("favorites_button").width
-            color: UM.Theme.getColor("favorites_header_text_active")
             verticalAlignment: Text.AlignVCenter
             leftPadding: (UM.Theme.getSize("default_margin").width / 2) | 0
         }
@@ -57,6 +56,7 @@ Item
         {
             implicitWidth: UM.Theme.getSize("favorites_button").width
             implicitHeight: UM.Theme.getSize("favorites_button").height
+            color: UM.Theme.getColor("favorites_header_text_active")
             UM.RecolorImage
             {
                 anchors
@@ -100,6 +100,7 @@ Item
         anchors.left: parent ? parent.left : undefined
         height: brand_section.expanded ? childrenRect.height : 0
         visible: brand_section.expanded
+        color: UM.Theme.getColor("favorites_header_text_active")
 
         Repeater
         {
