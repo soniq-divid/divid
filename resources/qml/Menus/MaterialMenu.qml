@@ -54,7 +54,6 @@ Menu
         delegate: MenuItem
         {
             text: model.brand + " " + model.name
-            color: MenuItem.highligted ? UM.getColor("favorites_header_text_active") : UM.getColor("favorites_header_text_hover")
             checkable: true
             enabled: isActiveExtruderEnabled
             checked: model.root_material_id === menu.currentRootMaterialId
