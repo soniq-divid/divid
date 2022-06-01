@@ -19,7 +19,7 @@ Item
     width: applicationMenu.width
     height: applicationMenu.height
     property alias window: applicationMenu.window
-    color: UM.getColor("primary_hover")
+
     UM.ApplicationMenu
     {
         id: applicationMenu
