@@ -49,6 +49,7 @@ Item
             text: sectionName
             height: UM.Theme.getSize("favorites_row").height
             width: parent.width - UM.Theme.getSize("favorites_button").width
+            color: UM.Theme.getColor("favorites_header_text_active")
             verticalAlignment: Text.AlignVCenter
             leftPadding: (UM.Theme.getSize("default_margin").width / 2) | 0
         }
