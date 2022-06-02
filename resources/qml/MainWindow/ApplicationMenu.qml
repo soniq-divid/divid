@@ -28,8 +28,14 @@ Item
             title: catalog.i18nc("@title:menu menubar:toplevel", "&File") 
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -59,8 +65,14 @@ Item
 
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -73,8 +85,14 @@ Item
             title: catalog.i18nc("@title:menu menubar:toplevel", "&View") 
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }                    
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -95,8 +113,14 @@ Item
             title: (Qt.platform.os == "osx") ? "&Settings" : catalog.i18nc("@title:menu menubar:toplevel", "&Settings")
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }                    
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -143,8 +167,14 @@ Item
             }
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }                    
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -169,8 +199,14 @@ Item
             MenuItem { action: Cura.Actions.preferences }
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }                    
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
@@ -193,8 +229,14 @@ Item
             MenuItem { action: Cura.Actions.about }
             style: MenuStyle {
                 itemDelegate.label: Label {
+                    function replaceText(txt) {
+                        var index = txt.indexOf("&");
+                        if(index >= 0)
+                        txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
+                        return txt;
+                    }                    
                     color: styleData.selected || styleData.open ? "white" : "black"
-                    text: styleData.text
+                    text: replaceText(styleData.text)
                 }
                 itemDelegate.background: Rectangle {
                     color: styleData.selected || styleData.open ? "#202D35" : "white"
