@@ -28,11 +28,11 @@ Item
             title: catalog.i18nc("@title:menu menubar:toplevel", "&File") 
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }            
@@ -59,11 +59,11 @@ Item
 
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }
@@ -73,11 +73,11 @@ Item
             title: catalog.i18nc("@title:menu menubar:toplevel", "&View") 
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }        
@@ -95,11 +95,11 @@ Item
             title: (Qt.platform.os == "osx") ? "&Settings" : catalog.i18nc("@title:menu menubar:toplevel", "&Settings")
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }            
@@ -143,11 +143,11 @@ Item
             }
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }            
@@ -169,11 +169,11 @@ Item
             MenuItem { action: Cura.Actions.preferences }
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }            
@@ -193,11 +193,11 @@ Item
             MenuItem { action: Cura.Actions.about }
             style: MenuStyle {
                 itemDelegate.label: Label {
-                    color: "black"
+                    color: styleData.selected || styleData.open ? "white" : "black"
                     text: styleData.text
                 }
                 itemDelegate.background: Rectangle {
-                    color: styleData.selected || styleData.open ? UM.getColor("primary_text") : "white"
+                    color: styleData.selected || styleData.open ? "#202D35" : "white"
                     radius: styleData.selected ? 3 : 0 
                 }
             }            
