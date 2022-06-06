@@ -1834,8 +1834,8 @@ msgstr "Mindent mutat"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cura biztonsági mentések"
+msgid "Zmorph Backups"
+msgstr "Zmorph biztonsági mentések"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5595,7 +5595,7 @@ msgstr "Jobb oldalnézet"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Cura beállítása..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5940,8 +5940,8 @@ msgstr "Konfiguráció biztonsági másolat készítése és visszaállítása."
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cura biztonsági mentések"
+msgid "Zmorph Backups"
+msgstr "Zmorph biztonsági mentések"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

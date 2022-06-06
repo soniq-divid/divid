@@ -1769,8 +1769,8 @@ msgstr "Показать всё"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Резервные копии Cura"
+msgid "Zmorph Backups"
+msgstr "Резервные копии Zmorph"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5459,7 +5459,7 @@ msgstr "Вид справа"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Настроить Cura..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5802,8 +5802,8 @@ msgstr "Резервное копирование и восстановлени�
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Резервные копии Cura"
+msgid "Zmorph Backups"
+msgstr "Резервные копии Zmorph"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

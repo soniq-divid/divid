@@ -1757,8 +1757,8 @@ msgstr "すべて表示する"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cura バックアップ"
+msgid "Zmorph Backups"
+msgstr "Zmorph バックアップ"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5432,7 +5432,7 @@ msgstr "右サイドビュー"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Curaを構成する..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5772,8 +5772,8 @@ msgstr "構成をバックアップしてリストアします。"
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cura バックアップ"
+msgid "Zmorph Backups"
+msgstr "Zmorph バックアップ"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

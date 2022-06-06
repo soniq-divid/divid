@@ -38,7 +38,7 @@ RadioButton
             height: width
             anchors.centerIn: parent
             radius: width / 2
-            color: radioButton.hovered ? UM.Theme.getColor("primary_button_hover") : UM.Theme.getColor("primary_button")
+            color: radioButton.hovered ? UM.Theme.getColor("zmorph_yellow") : UM.Theme.getColor("radio_button_active")
             visible: radioButton.checked
         }
     }

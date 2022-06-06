@@ -1839,8 +1839,8 @@ msgstr "显示全部"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cura 备份"
+msgid "Zmorph Backups"
+msgstr "Zmorph 备份"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5601,7 +5601,7 @@ msgstr "右视图"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "配置 Cura..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5946,8 +5946,8 @@ msgstr "备份和还原配置。"
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cura 备份"
+msgid "Zmorph Backups"
+msgstr "Zmorph 备份"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

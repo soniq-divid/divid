@@ -1857,8 +1857,8 @@ msgstr "Mostrar tudo"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cópias de segurança do Cura"
+msgid "Zmorph Backups"
+msgstr "Cópias de segurança do Zmorph"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5652,7 +5652,7 @@ msgstr "Vista Lado Direito"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Configurar Cura..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -6008,8 +6008,8 @@ msgstr "Efetua uma cópia de segurança e repõe a sua configuração."
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cópias de segurança do Cura"
+msgid "Zmorph Backups"
+msgstr "Cópias de segurança do Zmorph"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

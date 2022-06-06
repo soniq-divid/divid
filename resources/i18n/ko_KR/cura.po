@@ -1757,8 +1757,8 @@ msgstr "모두 보이기"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cura 백업"
+msgid "Zmorph Backups"
+msgstr "Zmorph 백업"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5425,7 +5425,7 @@ msgstr "오른쪽에서 보기"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Cura 구성 ..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5768,8 +5768,8 @@ msgstr "구성을 백업하고 복원합니다."
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cura 백업"
+msgid "Zmorph Backups"
+msgstr "Zmorph 백업"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"

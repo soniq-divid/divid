@@ -1763,8 +1763,8 @@ msgstr "Tümünü göster"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
-msgid "Cura Backups"
-msgstr "Cura Yedeklemeleri"
+msgid "Zmorph Backups"
+msgstr "Zmorph Yedeklemeleri"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
@@ -5444,7 +5444,7 @@ msgstr "Sağ Taraftan Görünüm"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu"
-msgid "Configure Cura..."
+msgid "Configure Zmorph..."
 msgstr "Cura’yı yapılandır..."
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Actions.qml:197
@@ -5787,8 +5787,8 @@ msgstr "Yapılandırmanızı yedekleyin ve geri yükleyin."
 
 #: CuraDrive/plugin.json
 msgctxt "name"
-msgid "Cura Backups"
-msgstr "Cura Yedeklemeleri"
+msgid "Zmorph Backups"
+msgstr "Zmorph Yedeklemeleri"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "description"
