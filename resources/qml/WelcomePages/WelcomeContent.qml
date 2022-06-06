@@ -65,7 +65,7 @@ Item
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             width: titleLabel.width + 2 * UM.Theme.getSize("thick_margin").width
-            text: catalog.i18nc("@text", "Please follow these steps to set up Ultimaker Cura. This will only take a few moments.")
+            text: catalog.i18nc("@text", "Please follow these steps to set up Zmorph Divid. This will only take a few moments.")
             wrapMode: Text.Wrap
             font: UM.Theme.getFont("medium")
             color: UM.Theme.getColor("text")
