@@ -1909,8 +1909,8 @@ msgstr "A biztonsági mentés helyreállítás előtt a Cura -t újra kell indí
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "A Cura beállítások biztonsági mentése és szinkronizálása."
+msgid "Backup and synchronize your Divid settings."
+msgstr "A Divid beállítások biztonsági mentése és szinkronizálása."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4705,17 +4705,17 @@ msgstr "Fájlok megnyitása és mentése"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
+msgid "Use a single instance of Divid"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582

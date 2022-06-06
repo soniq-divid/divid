@@ -1832,8 +1832,8 @@ msgstr "백업이 복원되기 전에 Cura를 다시 시작해야 합니다. 지
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Cura 설정을 백업, 동기화하십시오."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Divid 설정을 백업, 동기화하십시오."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4543,18 +4543,18 @@ msgstr "파일 열기 및 저장"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "데스크톱 또는 외부 애플리케이션의 파일을 동일한 Cura 인스턴스에서 엽니까?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "데스크톱 또는 외부 애플리케이션의 파일을 동일한 Divid 인스턴스에서 엽니까?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Cura의 단일 인스턴스 사용"
+msgid "Use a single instance of Divid"
+msgstr "Divid의 단일 인스턴스 사용"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Cura의 단일 인스턴스에서 새 모델을 로드하기 전에 빌드 플레이트를 지워야 합니까?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Divid의 단일 인스턴스에서 새 모델을 로드하기 전에 빌드 플레이트를 지워야 합니까?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

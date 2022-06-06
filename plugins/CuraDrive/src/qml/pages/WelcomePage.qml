@@ -31,7 +31,7 @@ Column
     Label
     {
         id: welcomeTextLabel
-        text: catalog.i18nc("@description", "Backup and synchronize your Cura settings.")
+        text: catalog.i18nc("@description", "Backup and synchronize your Divid settings.")
         width: Math.round(parent.width / 2)
         font: UM.Theme.getFont("default")
         color: UM.Theme.getColor("text")

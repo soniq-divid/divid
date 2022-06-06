@@ -1932,8 +1932,8 @@ msgstr "É necessário reiniciar o Cura para restaurar a sua cópia de seguranç
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Efetue a cópia de segurança e sincronize as suas definições do Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Efetue a cópia de segurança e sincronize as suas definições do Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4750,18 +4750,18 @@ msgstr "Abrir e guardar ficheiros"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Pretende que os ficheiros abertos a partir do ambiente de trabalho ou de aplicações externas sejam executados na mesma instância do Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Pretende que os ficheiros abertos a partir do ambiente de trabalho ou de aplicações externas sejam executados na mesma instância do Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Utilizar uma única instância do Cura"
+msgid "Use a single instance of Divid"
+msgstr "Utilizar uma única instância do Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Limpar a base de construção antes de carregar um novo modelo na instância única do Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Limpar a base de construção antes de carregar um novo modelo na instância única do Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

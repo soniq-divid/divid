@@ -1910,8 +1910,8 @@ msgstr "Musisz zrestartować Curę przed przywróceniem kopii zapasowej. Czy chc
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Wykonaj kopię zapasową i zsynchronizuj ustawienia Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Wykonaj kopię zapasową i zsynchronizuj ustawienia Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -3328,7 +3328,7 @@ msgstr "Pokaż instrukcję użytkownika online"
 
 #: /home/clamboo/Desktop/Cura/plugins/MonitorStage/MonitorMain.qml:172
 msgctxt "@info"
-msgid "In order to monitor your print from Cura, please connect the printer."
+msgid "Zmorph Hub will let you monitor your prints. Available soon."
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/plugins/ModelChecker/ModelChecker.qml:22
@@ -4708,17 +4708,17 @@ msgstr "Otwieranie i zapisywanie plików"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
+msgid "Use a single instance of Divid"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582

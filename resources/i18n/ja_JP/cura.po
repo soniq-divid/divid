@@ -1832,8 +1832,8 @@ msgstr "バックアップをリストアする前に Cura を再起動する必
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Cura のバックアップおよび同期を設定します。"
+msgid "Backup and synchronize your Divid settings."
+msgstr "Divid のバックアップおよび同期を設定します。"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4549,18 +4549,18 @@ msgstr "ファイルを開くまた保存"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "デスクトップまたは外部アプリケーションから開いたファイルをCuraの同じインスタンスで開く必要がありますか？"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "デスクトップまたは外部アプリケーションから開いたファイルをDividの同じインスタンスで開く必要がありますか？"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Curaの単一インスタンスを使用"
+msgid "Use a single instance of Divid"
+msgstr "Dividの単一インスタンスを使用"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Curaの単一インスタンスに新しいモデルをロードする前に、ビルドプレートをクリアする必要はありますか？"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Dividの単一インスタンスに新しいモデルをロードする前に、ビルドプレートをクリアする必要はありますか？"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

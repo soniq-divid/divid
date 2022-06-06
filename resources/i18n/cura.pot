@@ -1984,7 +1984,7 @@ msgstr ""
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
+msgid "Backup and synchronize your Divid settings."
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
@@ -3448,7 +3448,7 @@ msgstr ""
 
 #: /home/clamboo/Desktop/Cura/plugins/MonitorStage/MonitorMain.qml:172
 msgctxt "@info"
-msgid "In order to monitor your print from Cura, please connect the printer."
+msgid "Zmorph Hub will let you monitor your prints. Available soon."
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/plugins/ModelChecker/ModelChecker.qml:22
@@ -4878,12 +4878,12 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid ""
 "Should opening files from the desktop or external applications open in the "
-"same instance of Cura?"
+"same instance of Divid?"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
+msgid "Use a single instance of Divid"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576

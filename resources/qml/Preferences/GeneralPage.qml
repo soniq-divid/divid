@@ -516,12 +516,12 @@ UM.PreferencesPage
             {
                 width: childrenRect.width
                 height: childrenRect.height
-                text: catalog.i18nc("@info:tooltip","Should opening files from the desktop or external applications open in the same instance of Cura?")
+                text: catalog.i18nc("@info:tooltip","Should opening files from the desktop or external applications open in the same instance of Divid?")
 
                 CheckBox
                 {
                     id: singleInstanceCheckbox
-                    text: catalog.i18nc("@option:check","Use a single instance of Cura")
+                    text: catalog.i18nc("@option:check","Use a single instance of Divid")
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance", checked)
                 }
@@ -531,7 +531,7 @@ UM.PreferencesPage
             {
                 width: childrenRect.width
                 height: childrenRect.height
-                text: catalog.i18nc("@info:tooltip","Should the build plate be cleared before loading a new model in the single instance of Cura?")
+                text: catalog.i18nc("@info:tooltip","Should the build plate be cleared before loading a new model in the single instance of Divid?")
                 enabled: singleInstanceCheckbox.checked
 
                 CheckBox

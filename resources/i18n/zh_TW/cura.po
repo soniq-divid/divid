@@ -1834,8 +1834,8 @@ msgstr "在復原備份之前，你需要重新啟動 Cura。 你想要現在關
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "備份並同步你的 Cura 設定。"
+msgid "Backup and synchronize your Divid settings."
+msgstr "備份並同步你的 Divid 設定。"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4547,17 +4547,17 @@ msgstr "開啟並儲存檔案"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "從桌面或外部程式開啟檔案時，使用同一 Cura 視窗嗎？"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "從桌面或外部程式開啟檔案時，使用同一 Divid 視窗嗎？"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "使用同一 Cura 視窗"
+msgid "Use a single instance of Divid"
+msgstr "使用同一 Divid 視窗"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
 msgstr "需要再載入新模型前清空視窗內之列印平台嗎?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582

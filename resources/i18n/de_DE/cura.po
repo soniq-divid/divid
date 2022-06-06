@@ -1837,8 +1837,8 @@ msgstr "Cura muss neu gestartet werden, um Ihre Datensicherung wiederherzustelle
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Ihre Cura-Einstellungen sichern und synchronisieren."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Ihre Divid-Einstellungen sichern und synchronisieren."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4559,18 +4559,18 @@ msgstr "Dateien öffnen und speichern"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Sollten Dateien vom Desktop oder von externen Anwendungen in derselben Instanz von Cura geöffnet werden?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Sollten Dateien vom Desktop oder von externen Anwendungen in derselben Instanz von Divid geöffnet werden?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Eine einzelne Instanz von Cura verwenden"
+msgid "Use a single instance of Divid"
+msgstr "Eine einzelne Instanz von Divid verwenden"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Soll das Druckbett jeweils vor dem Laden eines neuen Modells in einer einzelnen Instanz von Cura gelöscht werden?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Soll das Druckbett jeweils vor dem Laden eines neuen Modells in einer einzelnen Instanz von Divid gelöscht werden?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

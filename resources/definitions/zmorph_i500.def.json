@@ -5,7 +5,7 @@
     "metadata": {
         "visible": true,
         "author": "Zmorph",
-        "manufacturer": "Zmorph S.A.",
+        "manufacturer": "Zmorph",
         "file_formats": "text/x-gcode",
         "platform": "zmorph_i500_platform.stl",
         "platform_offset": [-243, -84, 168],

@@ -1914,8 +1914,8 @@ msgstr "您需要重新启动 Cura 才能恢复备份。您要立即关闭 Cura 
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "备份并同步您的 Cura 设置。"
+msgid "Backup and synchronize your Divid settings."
+msgstr "备份并同步您的 Divid 设置。"
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4709,18 +4709,18 @@ msgstr "打开并保存文件"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "应从桌面打开文件还是在同一 Cura 实例中打开外部应用程序？"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "应从桌面打开文件还是在同一 Divid 实例中打开外部应用程序？"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "使用单个 Cura 实例"
+msgid "Use a single instance of Divid"
+msgstr "使用单个 Divid 实例"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "是否应在清理构建板后再将新模型加载到单个 Cura 实例中？"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "是否应在清理构建板后再将新模型加载到单个 Divid 实例中？"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

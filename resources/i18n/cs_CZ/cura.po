@@ -1929,8 +1929,8 @@ msgstr "Před obnovením zálohy budete muset restartovat Curu. Chcete nyní Cur
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Zálohovat a synchronizovat vaše nastavení Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Zálohovat a synchronizovat vaše nastavení Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4738,18 +4738,18 @@ msgstr "Otevírám a ukládám soubory"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Měli by se soubory z plochy, nebo externích aplikací otevírat ve stejné instanci Cury?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Měli by se soubory z plochy, nebo externích aplikací otevírat ve stejné instanci Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Používat pouze jednu instanci programu Cura"
+msgid "Use a single instance of Divid"
+msgstr "Používat pouze jednu instanci programu Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Má být podložka vyčištěna před načtením nového modelu v jediné instanci Cury?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Má být podložka vyčištěna před načtením nového modelu v jediné instanci Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

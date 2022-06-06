@@ -1921,8 +1921,8 @@ msgstr "U moet Cura opnieuw starten voordat uw back-up wordt hersteld. Wilt u Cu
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Maak een back-up van uw Cura-instellingen en synchroniseer deze."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Maak een back-up van uw Divid-instellingen en synchroniseer deze."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4724,18 +4724,18 @@ msgstr "Bestanden openen en opslaan"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Wilt u dat bestanden vanaf de desktop of externe toepassingen in dezelfde instantie van Cura worden geopend?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Wilt u dat bestanden vanaf de desktop of externe toepassingen in dezelfde instantie van Divid worden geopend?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Gebruik één instantie van Cura"
+msgid "Use a single instance of Divid"
+msgstr "Gebruik één instantie van Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Moet het platform worden leeggemaakt voordat u een nieuw model laadt in de dezelfde instantie van Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Moet het platform worden leeggemaakt voordat u een nieuw model laadt in de dezelfde instantie van Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

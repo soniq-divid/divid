@@ -1839,8 +1839,8 @@ msgstr "Você precisará reiniciar o Cura antes que seu backup seja restaurado. 
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Fazer backup e sincronizar os ajustes do Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Fazer backup e sincronizar os ajustes do Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4560,18 +4560,18 @@ msgstr "Abrindo e salvando arquivos"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Arquivos da área de trabalho ou de aplicações externas devem ser abertos na mesma instância do Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Arquivos da área de trabalho ou de aplicações externas devem ser abertos na mesma instância do Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Usar uma única instância do Cura"
+msgid "Use a single instance of Divid"
+msgstr "Usar uma única instância do Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "A plataforma de construção deve ser esvaziada antes de carregar um modelo novo na instância única do Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "A plataforma de construção deve ser esvaziada antes de carregar um modelo novo na instância única do Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

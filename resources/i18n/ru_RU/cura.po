@@ -1844,8 +1844,8 @@ msgstr "Вам потребуется перезапустить Cura, преж�
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Резервное копирование и синхронизация ваших параметров Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Резервное копирование и синхронизация ваших параметров Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4575,18 +4575,18 @@ msgstr "Открытие и сохранение файлов"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Открывать файлы с компьютера и из внешних приложений в одном экземпляре Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Открывать файлы с компьютера и из внешних приложений в одном экземпляре Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Использовать один экземпляр Cura"
+msgid "Use a single instance of Divid"
+msgstr "Использовать один экземпляр Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Следует ли очищать печатную пластину перед загрузкой новой модели в единственный экземпляр Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Следует ли очищать печатную пластину перед загрузкой новой модели в единственный экземпляр Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

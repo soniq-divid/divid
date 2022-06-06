@@ -1919,8 +1919,8 @@ msgstr "Deberá reiniciar Cura para restaurar su copia de seguridad. ¿Desea cer
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Realice una copia de seguridad y sincronice sus ajustes de Cura."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Realice una copia de seguridad y sincronice sus ajustes de Divid."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51
 #: /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39
@@ -4722,18 +4722,18 @@ msgstr "Abrir y guardar archivos"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "¿Debería abrir los archivos del escritorio o las aplicaciones externas en la misma instancia de Cura?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "¿Debería abrir los archivos del escritorio o las aplicaciones externas en la misma instancia de Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Utilizar una sola instancia de Cura"
+msgid "Use a single instance of Divid"
+msgstr "Utilizar una sola instancia de Divid"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "¿Se debe limpiar la placa de impresión antes de cargar un nuevo modelo en una única instancia de Cura?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "¿Se debe limpiar la placa de impresión antes de cargar un nuevo modelo en una única instancia de Divid?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"

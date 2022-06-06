@@ -1838,8 +1838,8 @@ msgstr "Yedeklemeniz geri yüklenmeden öne Cura’yı yeniden başlatmalısın�
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
-msgid "Backup and synchronize your Cura settings."
-msgstr "Cura ayarlarınızı yedekleyin ve senkronize edin."
+msgid "Backup and synchronize your Divid settings."
+msgstr "Divid ayarlarınızı yedekleyin ve senkronize edin."
 
 #: /home/clamboo/Desktop/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:51 /home/clamboo/Desktop/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:39 /home/clamboo/Desktop/Cura/resources/qml/WelcomePages/CloudContent.qml:225
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/Materials/MaterialsSyncDialog.qml:171 /home/clamboo/Desktop/Cura/resources/qml/Account/GeneralOperations.qml:53
@@ -4561,18 +4561,18 @@ msgstr "Dosyaların açılması ve kaydedilmesi"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:561
 msgctxt "@info:tooltip"
-msgid "Should opening files from the desktop or external applications open in the same instance of Cura?"
-msgstr "Masaüstünden veya harici uygulamalardan açılan dosyalar aynı Cura örneğinde mi açılacak?"
+msgid "Should opening files from the desktop or external applications open in the same instance of Divid?"
+msgstr "Masaüstünden veya harici uygulamalardan açılan dosyalar aynı Divid örneğinde mi açılacak?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:566
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Tek bir Cura örneği kullan"
+msgid "Use a single instance of Divid"
+msgstr "Tek bir Divid örneği kullan"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:576
 msgctxt "@info:tooltip"
-msgid "Should the build plate be cleared before loading a new model in the single instance of Cura?"
-msgstr "Cura'nın tek örneğinde yeni bir model yüklenmeden önce yapı plakası temizlensin mi?"
+msgid "Should the build plate be cleared before loading a new model in the single instance of Divid?"
+msgstr "Divid'nın tek örneğinde yeni bir model yüklenmeden önce yapı plakası temizlensin mi?"
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Preferences/GeneralPage.qml:582
 msgctxt "@option:check"
