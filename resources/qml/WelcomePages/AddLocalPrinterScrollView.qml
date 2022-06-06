@@ -215,7 +215,7 @@ Item
                 width: parent.width - (2 * UM.Theme.getSize("default_margin").width)
                 wrapMode: Text.Wrap
                 text: base.getMachineName()
-                color: UM.Theme.getColor("primary_button")
+                color: UM.Theme.getColor("text")
                 font: UM.Theme.getFont("huge")
                 elide: Text.ElideRight
             }

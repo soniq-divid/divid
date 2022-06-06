@@ -30,16 +30,16 @@ Item
             width: parent.width
         }
 
-        // Image
-        // {
-        //     id: curaImage
-        //     anchors.horizontalCenter: parent.horizontalCenter
-        //     source: UM.Theme.getImage("welcome_cura")
-        //     fillMode: Image.PreserveAspectFit
-        //     width: UM.Theme.getSize("welcome_wizard_content_image_big").width
-        //     sourceSize.width: width
-        //     sourceSize.height: height
-        // }
+        Image
+        {
+            id: curaImage
+            anchors.horizontalCenter: parent.horizontalCenter
+            source: UM.Theme.getImage("welcome_cura")
+            fillMode: Image.PreserveAspectFit
+            width: UM.Theme.getSize("welcome_wizard_content_image_big").width
+            sourceSize.width: width
+            sourceSize.height: height
+        }
 
         // Filler item
         Item

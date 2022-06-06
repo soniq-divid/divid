@@ -45,7 +45,7 @@ Item
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             text: catalog.i18nc("@label", "Add a Cloud printer")
-            color: UM.Theme.getColor("primary_button")
+            color: UM.Theme.getColor("text")
             font: UM.Theme.getFont("huge")
             renderType: Text.NativeRendering
         }
