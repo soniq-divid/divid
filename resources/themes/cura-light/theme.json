@@ -7,166 +7,166 @@
         "large": {
             "size": 1.35,
             "weight": 40,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "large_ja_JP": {
             "size": 1.35,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "large_zh_CN": {
             "size": 1.35,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "large_zh_TW": {
             "size": 1.35,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "large_bold": {
             "size": 1.35,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "huge": {
             "size": 1.8,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "huge_bold": {
             "size": 1.8,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "medium": {
             "size": 1.16,
             "weight": 40,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "medium_ja_JP": {
             "size": 1.16,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "medium_zh_CN": {
             "size": 1.16,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "medium_zh_TW": {
             "size": 1.16,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "medium_bold": {
             "size": 1.16,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "default": {
             "size": 0.95,
             "weight": 40,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_ja_JP": {
             "size": 1.0,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_zh_CN": {
             "size": 1.0,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_zh_TW": {
             "size": 1.0,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_bold": {
             "size": 0.95,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "default_bold_ja_JP": {
             "size": 1.0,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "default_bold_zh_CN": {
             "size": 1.0,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "default_bold_zh_TW": {
             "size": 1.0,
             "weight": 63,
-            "family": "TypeType-TTOctosquaresBold"
+            "family": "Boxed Regular Bold"
         },
         "default_italic": {
             "size": 0.95,
             "weight": 40,
             "italic": true,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_italic_ja_JP": {
             "size": 1.0,
             "weight": 50,
             "italic": true,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_italic_zh_CN": {
             "size": 1.0,
             "weight": 50,
             "italic": true,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "default_italic_zh_TW": {
             "size": 1.0,
             "weight": 50,
             "italic": true,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small": {
             "size": 0.9,
             "weight": 40,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_ja_JP": {
             "size": 0.9,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_zh_CN": {
             "size": 0.9,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_zh_TW": {
             "size": 0.9,
             "weight": 50,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_emphasis": {
             "size": 0.9,
             "weight": 100,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_emphasis_ja_JP": {
             "size": 0.9,
             "weight": 100,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_emphasis_zh_CN": {
             "size": 0.9,
             "weight": 100,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         },
         "small_emphasis_zh_TW": {
             "size": 0.9,
             "weight": 100,
-            "family": "TypeType-TTOctosquaresRegular"
+            "family": "boxed"
         }
     },
 
