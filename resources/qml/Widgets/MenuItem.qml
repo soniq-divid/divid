@@ -48,7 +48,7 @@ MenuItem
 
         textFormat: Text.PlainText
         renderType: Text.NativeRendering
-        color: UM.Theme.getColor("setting_control")
+        color: UM.Theme.getColor("setting_control_text")
         font: UM.Theme.getFont("medium")
         elide: Text.ElideRight
         verticalAlignment: Text.AlignVCenter
