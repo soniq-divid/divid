@@ -3876,8 +3876,8 @@ msgstr ""
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
 msgid ""
-"Divid is developed by Zmorph in cooperation with the community.\n"
-"Divid proudly uses the following open source projects:"
+"DIVID is developed by ZMORPH S.A. and is based on the open source project Cura developed by Ultimaker B.V. in cooperation with the community. DIVID is based on Cura (version 4.13.0) developed by Ultimaker B.V., which is licensed under the terms of LGPLv3 (or later version) license agreement.\n"
+"DIVID uses the following open source projects, to which the relevant license applies."
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:135
@@ -3887,15 +3887,20 @@ msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:136
 msgctxt "@label"
-msgid "Application framework"
+msgid "Graphical user interfaces"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:137
 msgctxt "@label"
-msgid "G-code generator"
+msgid "Application Framework"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:138
+msgctxt "@label"
+msgid "G-code generator"
+msgstr ""
+
+#: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:139
 msgctxt "@label"
 msgid "Interprocess communication library"
 msgstr ""
@@ -3912,7 +3917,7 @@ msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:142
 msgctxt "@label"
-msgid "GUI framework bindings"
+msgid "GUI framework bindnings"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:143
@@ -3976,18 +3981,22 @@ msgid "Polygon clipping library"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:155
-msgctxt "@Label"
+msgctxt "@label"
 msgid "Static type checker for Python"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:156
+msgctxt "@label"
+msgid "Root Certificates for validating SSL trustworthiness"
+msgstr ""
+
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:157
-msgctxt "@Label"
+msgctxt "@label"
 msgid "Root Certificates for validating SSL trustworthiness"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:158
-msgctxt "@Label"
+msgctxt "@label"
 msgid "Python Error tracking library"
 msgstr ""
 
@@ -4018,12 +4027,12 @@ msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:164
 msgctxt "@label"
-msgid "SVG icons"
+msgid "Linux cross-distribution application deployment"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/AboutDialog.qml:165
 msgctxt "@label"
-msgid "Linux cross-distribution application deployment"
+msgid "SVG icons"
 msgstr ""
 
 #: /home/clamboo/Desktop/Cura/resources/qml/Dialogs/OpenFilesIncludingProjectsDialog.qml:19
