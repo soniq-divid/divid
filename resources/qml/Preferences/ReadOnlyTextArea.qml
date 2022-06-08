@@ -3,6 +3,8 @@
 
 import QtQuick 2.1
 import QtQuick.Controls 1.1
+import QtQuick.Controls 1.4
+import UM 1.3 as UM
 
 Item
 {
@@ -43,6 +45,10 @@ Item
             {
                 base.editingFinished()
             }
+        }
+        style: TextAreaStyle {
+            selectionColor: UM.Theme.getColor("zmorph_grey")
+            selectedTextColor: "white"
         }
     }
 }

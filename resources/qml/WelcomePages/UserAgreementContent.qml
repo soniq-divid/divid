@@ -21,7 +21,7 @@ Item
         anchors.horizontalCenter: parent.horizontalCenter
         horizontalAlignment: Text.AlignHCenter
         text: catalog.i18nc("@label", "User Agreement")
-        color: UM.Theme.getColor("primary_button")
+        color: UM.Theme.getColor("zmorph_grey")
         font: UM.Theme.getFont("huge")
         renderType: Text.NativeRendering
     }

@@ -273,7 +273,7 @@ TabView
                         updateCostPerMeter()
                     }
                     style: SpinBoxStyle {
-                        selectionColor: "#202D35"
+                        selectionColor: UM.Theme.getColor("zmorph_grey")
                         selectedTextColor: "white"
                         horizontalAlignment: Qt.AlignLeft
                     }

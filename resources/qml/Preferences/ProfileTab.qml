@@ -113,6 +113,9 @@ Tab
             selectedQualityItem: base.qualityItem == null ? {} : base.qualityItem
         }
 
+        rowDelegate: Rectangle {
+            color: styleData.selected ? UM.Theme.getColor("zmorph_grey") : "white"
+        }
         SystemPalette { id: palette }
     }
 }

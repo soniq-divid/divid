@@ -3,6 +3,7 @@
 
 import QtQuick 2.1
 import QtQuick.Controls 1.1
+import QtQuick.Controls.Styles 1.4
 import QtQuick.Dialogs 1.2
 
 Item
@@ -31,11 +32,16 @@ Item
         enabled: !base.readOnly
         opacity: base.readOnly ? 0.5 : 1.0
 
-        anchors.fill: parent
+        anchors.fill: parent 
 
         onEditingFinished: base.editingFinished()
         Keys.onEnterPressed: spinBox.focus = false
         Keys.onReturnPressed: spinBox.focus = false
+        style: SpinBoxStyle {
+            selectionColor: UM.Theme.getColor("zmorph_grey")
+            selectedTextColor: "white"
+            horizontalAlignment: Qt.AlignLeft
+        }
     }
 
     Label
