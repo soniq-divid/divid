@@ -3,7 +3,7 @@
 
 import QtQuick 2.10
 import QtQuick.Controls 1.4
-
+import QtQuick.Controls.Styles 1.4
 import UM 1.2 as UM
 import Cura 1.0 as Cura
 
@@ -57,4 +57,10 @@ Menu
     }
 
     ExclusiveGroup { id: group }
+    style: MenuStyle {
+        itemDelegate.background: Rectangle {
+            color: styleData.selected || styleData.open ? "#202D35" : "white"
+            radius: styleData.selected ? 3 : 0
+        }
+    }
 }

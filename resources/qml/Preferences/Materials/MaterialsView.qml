@@ -3,6 +3,7 @@
 
 import QtQuick 2.7
 import QtQuick.Controls 1.4
+import QtQuick.Controls.Styles 1.4
 import QtQuick.Dialogs 1.2
 
 import UM 1.2 as UM
@@ -271,6 +272,11 @@ TabView
                         base.setMaterialPreferenceValue(properties.guid, "spool_cost", parseFloat(value))
                         updateCostPerMeter()
                     }
+                    style: SpinBoxStyle {
+                        selectionColor: "#202D35"
+                        selectedTextColor: "white"
+                        horizontalAlignment: Qt.AlignLeft
+                    }
                 }
 
                 Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament weight") }
@@ -288,6 +294,11 @@ TabView
                     {
                         base.setMaterialPreferenceValue(properties.guid, "spool_weight", parseFloat(value))
                         updateCostPerMeter()
+                    }
+                    style: SpinBoxStyle {
+                        selectionColor: "#202D35"
+                        selectedTextColor: "white"
+                        horizontalAlignment: Qt.AlignLeft
                     }
                 }
 
