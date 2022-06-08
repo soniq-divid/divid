@@ -160,8 +160,7 @@ UM.Dialog
                 projectsModel.append({ name: "pynest2d", description: catalog.i18nc("@label", "Python bindings for libnest2d"), license: "LGPLv3", url: "https://github.com/Ultimaker/pynest2d/blob/main/LICENSE" });
                 projectsModel.append({ name: "Keyring", description: catalog.i18nc("@label", "Support library for system keyring access"), license: "MIT", url: "https://github.com/jaraco/keyring/blob/main/LICENSE" });
                 projectsModel.append({ name: "pywin32", description: catalog.i18nc("@label", "Python extensions for Microsoft Windows"), license: "PSF", url: "https://github.com/mhammond/pywin32/blob/main/Pythonwin/License.txt" });
-                projectsModel.append({ name: "Noto Sans", description: catalog.i18nc("@label", "Font"), license: "SIL OFL 1.1", url: "https://github.com/google/fonts/blob/main/ofl/notosans/OFL.txt" });
-                projectsModel.append({ name: "AppImageKit", description: catalog.i18nc("@label", "Linux cross-distribution application deployment"), license: "MIT", url: "https://github.com/AppImage/AppImageKit/blob/master/LICENSE" });
+                projectsModel.append({ name: "TT OctoSquares", description: catalog.i18nc("@label", "Font"), license: "Apache 2.0", url: "https://www.freefonts.io/tt-octosquares-font/" });                projectsModel.append({ name: "AppImageKit", description: catalog.i18nc("@label", "Linux cross-distribution application deployment"), license: "MIT", url: "https://github.com/AppImage/AppImageKit/blob/master/LICENSE" });
                 projectsModel.append({ name: "Font-Awesome-SVG-PNG", description: catalog.i18nc("@label", "SVG icons"), license: "For Font-Awesome-SVG-PNG: MIT, For the Font Awesome font: SIL OFL 1.1", url: "https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/LICENSE" });
             }
         }
