@@ -14,7 +14,7 @@ UM.Dialog
     //: About dialog title
     title: catalog.i18nc("@title:window The argument is the application name.", "About %1").arg(CuraApplication.applicationDisplayName)
 
-    minimumWidth: 500 * screenScaleFactor
+    minimumWidth: 900 * screenScaleFactor
     minimumHeight: 700 * screenScaleFactor
     width: minimumWidth
     height: minimumHeight
@@ -82,7 +82,7 @@ UM.Dialog
         width: parent.width
 
         //: About dialog application author note
-        text: catalog.i18nc("@info:credit","Divid is developed by Zmorph in cooperation with the community.\nDivid proudly uses the following open source projects:")
+        text: catalog.i18nc("@info:credit","DIVID is developed by ZMORPH S.A. and is based on the open source project Cura developed by Ultimaker B.V. in cooperation with the community. DIVID is based on Cura (version 4.13.0) developed by Ultimaker B.V., which is licensed under the terms of LGPLv3 (or later version) license agreement.\nDIVID uses the following open source projects, to which the relevant license applies. ")
         font: UM.Theme.getFont("system")
         wrapMode: Text.WordWrap
         anchors.top: description.bottom
@@ -117,13 +117,13 @@ UM.Dialog
                 {
                     text: model.description
                     elide: Text.ElideRight
-                    width: (projectsList.width * 0.6) | 0
+                    width: (projectsList.width * 0.45) | 0
                 }
                 Label
                 {
                     text: model.license
                     elide: Text.ElideRight
-                    width: (projectsList.width * 0.15) | 0
+                    width: (projectsList.width * 0.30) | 0
                 }
             }
             model: ListModel

@@ -65,8 +65,8 @@ class TextManager(QObject):
         for version in sorted(change_logs_dict.keys(), reverse = True):
             text_version = version
             if version < Version([1, 0, 0]):  # Bit of a hack: We released the 15.x.x versions before 2.x
-                text_version = Version([1, version.getMinor(), version.getRevision(), version.getPostfixVersion()])
-            content += "<h1>" + str(text_version) + "</h1><br>"
+                text_version = Version([1, version.getMinor()])
+            content += "<h1>Version " + str(text_version) + "</h1><br>"
             content += ""
             for change in change_logs_dict[version]:
                 if str(change) != "":
