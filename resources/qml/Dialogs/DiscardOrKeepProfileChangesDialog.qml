@@ -134,6 +134,9 @@ UM.Dialog
             }
 
             model: userChangesModel
+            rowDelegate: Rectangle {
+                color: styleData.selected ? UM.Theme.getColor("zmorph_grey") : "white"
+            }
         }
     }
 
