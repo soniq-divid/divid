@@ -220,6 +220,13 @@ UM.PreferencesPage
                     id: currencyField
                     text: UM.Preferences.getValue("cura/currency")
                     onTextChanged: UM.Preferences.setValue("cura/currency", text)
+                    style: TextFieldStyle {
+                        selectionColor: UM.Theme.getColor("zmorph_grey")
+                        selectedTextColor: "white"
+                        background: Rectangle {
+                            border.color: UM.Theme.getColor("zmorph_grey")
+                        }
+                    }
                 }
             }
 
@@ -252,8 +259,12 @@ UM.PreferencesPage
                     id: autoSliceCheckbox
                     checked: boolCheck(UM.Preferences.getValue("general/auto_slice"))
                     onClicked: UM.Preferences.setValue("general/auto_slice", checked)
-
+                }
+                Text {
                     text: catalog.i18nc("@option:check", "Slice automatically");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -283,8 +294,12 @@ UM.PreferencesPage
 
                     checked: boolCheck(UM.Preferences.getValue("view/show_overhang"))
                     onClicked: UM.Preferences.setValue("view/show_overhang", checked)
-
+                }
+                Text {
                     text: catalog.i18nc("@option:check", "Display overhang");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -302,8 +317,12 @@ UM.PreferencesPage
 
                     checked: boolCheck(UM.Preferences.getValue("view/show_xray_warning"))
                     onClicked: UM.Preferences.setValue("view/show_xray_warning",  checked)
-
+                }
+                Text {
                     text: catalog.i18nc("@option:check", "Display model errors");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -316,9 +335,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: centerOnSelectCheckbox
-                    text: catalog.i18nc("@action:button","Center camera when item is selected");
                     checked: boolCheck(UM.Preferences.getValue("view/center_on_select"))
                     onClicked: UM.Preferences.setValue("view/center_on_select",  checked)
+                }
+                Text {
+                    text: catalog.i18nc("@action:button","Center camera when item is selected");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -331,7 +355,6 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: invertZoomCheckbox
-                    text: catalog.i18nc("@action:button", "Invert the direction of camera zoom.");
                     checked: boolCheck(UM.Preferences.getValue("view/invert_zoom"))
                     onClicked: {
                         if(!checked && zoomToMouseCheckbox.checked) //Fix for Github issue Ultimaker/Cura#6490: Make sure the camera origin is in front when unchecking.
@@ -340,6 +363,12 @@ UM.PreferencesPage
                         }
                         UM.Preferences.setValue("view/invert_zoom", checked);
                     }
+                }
+                Text {
+                    text: catalog.i18nc("@action:button", "Invert the direction of camera zoom.");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -352,12 +381,16 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: zoomToMouseCheckbox
-                    text: catalog.i18nc("@action:button", "Zoom toward mouse direction")
                     checked: boolCheck(UM.Preferences.getValue("view/zoom_to_mouse")) && zoomToMouseCheckbox.enabled
                     onClicked: UM.Preferences.setValue("view/zoom_to_mouse", checked)
                     enabled: UM.Preferences.getValue("general/camera_perspective_mode") !== "orthographic"
                 }
-
+                Text {
+                    text: catalog.i18nc("@action:button", "Zoom toward mouse direction")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
+                }
                 //Because there is no signal for individual preferences, we need to manually link to the onPreferenceChanged signal.
                 Connections
                 {
@@ -383,9 +416,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: pushFreeCheckbox
-                    text: catalog.i18nc("@option:check", "Ensure models are kept apart")
                     checked: boolCheck(UM.Preferences.getValue("physics/automatic_push_free"))
                     onCheckedChanged: UM.Preferences.setValue("physics/automatic_push_free", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Ensure models are kept apart")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
             UM.TooltipArea
@@ -397,9 +435,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: dropDownCheckbox
-                    text: catalog.i18nc("@option:check", "Automatically drop models to the build plate")
                     checked: boolCheck(UM.Preferences.getValue("physics/automatic_drop_down"))
                     onCheckedChanged: UM.Preferences.setValue("physics/automatic_drop_down", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Automatically drop models to the build plate")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -417,8 +460,12 @@ UM.PreferencesPage
 
                     checked: boolCheck(UM.Preferences.getValue("gcodereader/show_caution"))
                     onClicked: UM.Preferences.setValue("gcodereader/show_caution", checked)
-
+                }
+                Text {
                     text: catalog.i18nc("@option:check","Caution message in g-code reader");
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -431,9 +478,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: forceLayerViewCompatibilityModeCheckbox
-                    text: catalog.i18nc("@option:check", "Force layer view compatibility mode (restart required)")
                     checked: boolCheck(UM.Preferences.getValue("view/force_layer_view_compatibility_mode"))
                     onCheckedChanged: UM.Preferences.setValue("view/force_layer_view_compatibility_mode", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Force layer view compatibility mode (restart required)")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -446,9 +498,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: restoreWindowPositionCheckbox
-                    text: catalog.i18nc("@option:check", "Restore window position on start")
                     checked: boolCheck(UM.Preferences.getValue("general/restore_window_geometry"))
                     onCheckedChanged: UM.Preferences.setValue("general/restore_window_geometry", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Restore window position on start")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -521,9 +578,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: singleInstanceCheckbox
-                    text: catalog.i18nc("@option:check","Use a single instance of Divid")
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Use a single instance of Divid")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -537,9 +599,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: singleInstanceClearBeforeLoadCheckbox
-                    text: catalog.i18nc("@option:check","Clear buildplate before loading model into the single instance")
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance_clear_before_load"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance_clear_before_load", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Clear buildplate before loading model into the single instance")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -552,9 +619,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: scaleToFitCheckbox
-                    text: catalog.i18nc("@option:check","Scale large models")
                     checked: boolCheck(UM.Preferences.getValue("mesh/scale_to_fit"))
                     onCheckedChanged: UM.Preferences.setValue("mesh/scale_to_fit", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Scale large models")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -567,9 +639,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: scaleTinyCheckbox
-                    text: catalog.i18nc("@option:check","Scale extremely small models")
                     checked: boolCheck(UM.Preferences.getValue("mesh/scale_tiny_meshes"))
                     onCheckedChanged: UM.Preferences.setValue("mesh/scale_tiny_meshes", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Scale extremely small models")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -582,9 +659,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: selectModelsOnLoadCheckbox
-                    text: catalog.i18nc("@option:check","Select models when loaded")
                     checked: boolCheck(UM.Preferences.getValue("cura/select_models_on_load"))
                     onCheckedChanged: UM.Preferences.setValue("cura/select_models_on_load", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Select models when loaded")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -597,9 +679,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: prefixJobNameCheckbox
-                    text: catalog.i18nc("@option:check", "Add machine prefix to job name")
                     checked: boolCheck(UM.Preferences.getValue("cura/jobname_prefix"))
                     onCheckedChanged: UM.Preferences.setValue("cura/jobname_prefix", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Add machine prefix to job name")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -611,9 +698,14 @@ UM.PreferencesPage
 
                 CheckBox
                 {
-                    text: catalog.i18nc("@option:check", "Show summary dialog when saving project")
                     checked: boolCheck(UM.Preferences.getValue("cura/dialog_on_project_save"))
                     onCheckedChanged: UM.Preferences.setValue("cura/dialog_on_project_save", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Show summary dialog when saving project")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -757,9 +849,15 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: sendDataCheckbox
-                    text: catalog.i18nc("@option:check","Send (anonymous) print information")
                     checked: boolCheck(UM.Preferences.getValue("info/send_slice_info"))
                     onCheckedChanged: UM.Preferences.setValue("info/send_slice_info", checked)
+                }
+
+                Text {
+                    text: catalog.i18nc("@option:check","Send (anonymous) print information")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
 
                 Button
@@ -796,9 +894,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: checkUpdatesCheckbox
-                    text: catalog.i18nc("@option:check","Check for updates on start")
                     checked: boolCheck(UM.Preferences.getValue("info/automatic_update_check"))
                     onCheckedChanged: UM.Preferences.setValue("info/automatic_update_check", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check","Check for updates on start")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 
@@ -812,11 +915,16 @@ UM.PreferencesPage
                 anchors.leftMargin: UM.Theme.getSize("default_margin").width
                 RadioButton
                 {
-                    text: catalog.i18nc("@option:radio", "Stable releases only")
                     exclusiveGroup: curaUpdatesGroup
                     enabled: checkUpdatesCheckbox.checked
                     checked: UM.Preferences.getValue("info/latest_update_source") == "stable"
                     onClicked: UM.Preferences.setValue("info/latest_update_source", "stable")
+                }
+                Text {
+                    text: catalog.i18nc("@option:radio", "Stable releases only")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
             UM.TooltipArea
@@ -828,11 +936,16 @@ UM.PreferencesPage
                 anchors.leftMargin: UM.Theme.getSize("default_margin").width
                 RadioButton
                 {
-                    text: catalog.i18nc("@option:radio", "Stable and Beta releases")
                     exclusiveGroup: curaUpdatesGroup
                     enabled: checkUpdatesCheckbox.checked
                     checked: UM.Preferences.getValue("info/latest_update_source") == "beta"
                     onClicked: UM.Preferences.setValue("info/latest_update_source", "beta")
+                }
+                Text {
+                    text: catalog.i18nc("@option:radio", "Stable and Beta releases")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
             UM.TooltipArea
@@ -844,9 +957,14 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: pluginNotificationsUpdateCheckbox
-                    text: catalog.i18nc("@option:check", "Get notifications for plugin updates")
                     checked: boolCheck(UM.Preferences.getValue("info/automatic_plugin_update_check"))
                     onCheckedChanged: UM.Preferences.setValue("info/automatic_plugin_update_check", checked)
+                }
+                Text {
+                    text: catalog.i18nc("@option:check", "Get notifications for plugin updates")
+                    font: UM.Theme.getFont("default")
+                    leftPadding: 20
+                    topPadding: 2 
                 }
             }
 

@@ -34,6 +34,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -71,6 +72,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -91,6 +93,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }                    
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -119,6 +122,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }                    
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -173,6 +177,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }                    
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -205,6 +210,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }                    
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }
@@ -235,6 +241,7 @@ Item
                         txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) +"</u>"));
                         return txt;
                     }                    
+                    font: UM.Theme.getFont("default")
                     color: styleData.selected || styleData.open ? "white" : "black"
                     text: replaceText(styleData.text)
                 }

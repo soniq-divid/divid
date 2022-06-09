@@ -96,6 +96,13 @@ UM.PreferencesPage
             placeholderText: catalog.i18nc("@label:textbox", "Filter...")
 
             onTextChanged: definitionsModel.filter = {"i18n_label|i18n_description": "*" + text}
+            style: TextFieldStyle {
+                selectionColor: UM.Theme.getColor("zmorph_grey")
+                selectedTextColor: "white"
+                background: Rectangle {
+                    border.color: UM.Theme.getColor("zmorph_grey")
+                }
+            }
         }
 
         NewControls.ComboBox
