@@ -139,7 +139,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label", "Interface")
             }
 
@@ -237,7 +237,7 @@ UM.PreferencesPage
                 //: Language change warning
                 text: catalog.i18nc("@label", "You will need to restart the application for these changes to have effect.")
                 wrapMode: Text.WordWrap
-                font.italic: true
+                font: UM.Theme.getFont("default_italic")
             }
 
             Item
@@ -277,7 +277,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label", "Viewport behavior")
             }
 
@@ -565,7 +565,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label","Opening and saving files")
             }
 
@@ -782,7 +782,7 @@ UM.PreferencesPage
 
                     Label
                     {
-                        font.bold: true
+                        font: UM.Theme.getFont("default_bold")
                         text: catalog.i18nc("@label", "Profiles")
                     }
 
@@ -837,7 +837,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label", "Privacy")
             }
             UM.TooltipArea
@@ -881,7 +881,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label", "Updates")
             }
 
@@ -979,7 +979,7 @@ UM.PreferencesPage
 
             Label
             {
-                font.bold: true
+                font: UM.Theme.getFont("default_bold")
                 text: catalog.i18nc("@label","Experimental")
             }
 
