@@ -305,11 +305,13 @@ UM.Dialog
             onClicked: { manager.onOkButtonClicked() }
             enabled: true
             style: ButtonStyle {
-                border.color: styleData.selected ? UM.Theme.getColor("zmorph_grey_hover") : UM.Theme.getColor("zmorph_grey")
-                implicitWidth: 100
-                implicitHeight: 25
-                border.width: control.activeFocus ? 1.5 : 1
-                radius: 4
+                background: Rectangle {
+                    border.color: styleData.selected ? UM.Theme.getColor("zmorph_grey_hover") : UM.Theme.getColor("zmorph_grey")
+                    implicitWidth: 100
+                    implicitHeight: 25
+                    border.width: control.activeFocus ? 1.5 : 1
+                    radius: 4
+                }
             }
         },
         Button
@@ -319,11 +321,13 @@ UM.Dialog
             onClicked: { manager.onCancelButtonClicked() }
             enabled: true
             style: ButtonStyle {
-                border.color: styleData.selected ? UM.Theme.getColor("zmorph_grey_hover") : UM.Theme.getColor("zmorph_grey")
-                implicitWidth: 100
-                implicitHeight: 25
-                border.width: control.activeFocus ? 1.5 : 1
-                radius: 4
+                background: Rectangle {
+                    border.color: styleData.selected ? UM.Theme.getColor("zmorph_grey_hover") : UM.Theme.getColor("zmorph_grey")
+                    implicitWidth: 100
+                    implicitHeight: 25
+                    border.width: control.activeFocus ? 1.5 : 1
+                    radius: 4
+                }
             }
         }
     ]
