@@ -78,7 +78,7 @@ UM.PreferencesPage
                     }
                 }
             }
-            style: UM.Theme.styles.checkbox
+            // style: UM.Theme.styles.checkbox
         }
 
         TextField

@@ -536,17 +536,17 @@ Item
 
                     onTriggered: Cura.Actions.configureSettingVisibility.trigger(contextMenu);
                 }
-                style: MenuStyle {
-                    itemDelegate.label: Label {                
-                        font: UM.Theme.getFont("default")
-                        color: styleData.selected || styleData.open ? "white" : "black"
-                        text: styleData.text
-                    }
-                    itemDelegate.background: Rectangle {
-                        color: styleData.selected || styleData.open ? UM.Theme.getColor("zmorph_grey") : "white"
-                        radius: styleData.selected ? 3 : 0 
-                    }
-                }    
+                // style: MenuStyle {
+                //     itemDelegate.label: Label {                
+                //         font: UM.Theme.getFont("default")
+                //         color: styleData.selected || styleData.open ? "white" : "black"
+                //         text: styleData.text
+                //     }
+                //     itemDelegate.background: Rectangle {
+                //         color: styleData.selected || styleData.open ? UM.Theme.getColor("zmorph_grey") : "white"
+                //         radius: styleData.selected ? 3 : 0 
+                //     }
+                // }    
             }
 
             UM.SettingPropertyProvider
