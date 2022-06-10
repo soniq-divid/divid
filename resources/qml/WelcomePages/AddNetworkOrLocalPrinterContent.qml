@@ -26,7 +26,7 @@ Item
         font: UM.Theme.getFont("huge")
         renderType: Text.NativeRendering
     }
-
+/*
     DropDownWidget
     {
         id: addNetworkPrinterDropDown
@@ -77,7 +77,7 @@ Item
             }
         }
     }
-
+*/
     DropDownWidget
     {
         id: addLocalPrinterDropDown
@@ -88,6 +88,7 @@ Item
         anchors.topMargin: UM.Theme.getSize("default_margin").height
 
         title: catalog.i18nc("@label", "Add a non-networked printer")
+        contentShown: true  // by default expand the network printer list
 
         onClicked:
         {

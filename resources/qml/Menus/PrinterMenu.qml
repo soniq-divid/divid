@@ -19,7 +19,7 @@ Menu
 //            color: "white"
 //        }
 //    }
-
+/*
     MenuItem
     {
         text: catalog.i18nc("@label:category menu label", "Network enabled printers")
@@ -36,7 +36,7 @@ Menu
     {
         visible: networkPrinterMenu.count > 0
     }
-
+*/
     MenuItem
     {
         text: catalog.i18nc("@label:category menu label", "Local printers")

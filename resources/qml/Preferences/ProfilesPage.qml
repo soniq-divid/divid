@@ -311,6 +311,7 @@ Item
         onAccepted:
         {
             var result = Cura.ContainerManager.importProfile(fileUrl);
+            messageDialog.title = catalog.i18nc("@title:window", "Import Profile");
             messageDialog.text = result.message;
             if (result.status == "ok")
             {

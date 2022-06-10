@@ -335,6 +335,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: centerOnSelectCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("view/center_on_select"))
                     onClicked: UM.Preferences.setValue("view/center_on_select",  checked)
                 }
@@ -355,6 +356,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: invertZoomCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("view/invert_zoom"))
                     onClicked: {
                         if(!checked && zoomToMouseCheckbox.checked) //Fix for Github issue Ultimaker/Cura#6490: Make sure the camera origin is in front when unchecking.
@@ -381,6 +383,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: zoomToMouseCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("view/zoom_to_mouse")) && zoomToMouseCheckbox.enabled
                     onClicked: UM.Preferences.setValue("view/zoom_to_mouse", checked)
                     enabled: UM.Preferences.getValue("general/camera_perspective_mode") !== "orthographic"
@@ -416,6 +419,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: pushFreeCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("physics/automatic_push_free"))
                     onCheckedChanged: UM.Preferences.setValue("physics/automatic_push_free", checked)
                 }
@@ -435,6 +439,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: dropDownCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("physics/automatic_drop_down"))
                     onCheckedChanged: UM.Preferences.setValue("physics/automatic_drop_down", checked)
                 }
@@ -478,6 +483,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: forceLayerViewCompatibilityModeCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("view/force_layer_view_compatibility_mode"))
                     onCheckedChanged: UM.Preferences.setValue("view/force_layer_view_compatibility_mode", checked)
                 }
@@ -498,6 +504,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: restoreWindowPositionCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("general/restore_window_geometry"))
                     onCheckedChanged: UM.Preferences.setValue("general/restore_window_geometry", checked)
                 }
@@ -578,6 +585,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: singleInstanceCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance", checked)
                 }
@@ -599,6 +607,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: singleInstanceClearBeforeLoadCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance_clear_before_load"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance_clear_before_load", checked)
                 }
@@ -619,6 +628,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: scaleToFitCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("mesh/scale_to_fit"))
                     onCheckedChanged: UM.Preferences.setValue("mesh/scale_to_fit", checked)
                 }
@@ -639,6 +649,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: scaleTinyCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("mesh/scale_tiny_meshes"))
                     onCheckedChanged: UM.Preferences.setValue("mesh/scale_tiny_meshes", checked)
                 }
@@ -659,6 +670,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: selectModelsOnLoadCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("cura/select_models_on_load"))
                     onCheckedChanged: UM.Preferences.setValue("cura/select_models_on_load", checked)
                 }
@@ -679,6 +691,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: prefixJobNameCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("cura/jobname_prefix"))
                     onCheckedChanged: UM.Preferences.setValue("cura/jobname_prefix", checked)
                 }
@@ -698,6 +711,7 @@ UM.PreferencesPage
 
                 CheckBox
                 {
+
                     checked: boolCheck(UM.Preferences.getValue("cura/dialog_on_project_save"))
                     onCheckedChanged: UM.Preferences.setValue("cura/dialog_on_project_save", checked)
                 }
@@ -849,6 +863,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: sendDataCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("info/send_slice_info"))
                     onCheckedChanged: UM.Preferences.setValue("info/send_slice_info", checked)
                 }
@@ -894,6 +909,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: checkUpdatesCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("info/automatic_update_check"))
                     onCheckedChanged: UM.Preferences.setValue("info/automatic_update_check", checked)
                 }
@@ -915,6 +931,7 @@ UM.PreferencesPage
                 anchors.leftMargin: UM.Theme.getSize("default_margin").width
                 RadioButton
                 {
+
                     exclusiveGroup: curaUpdatesGroup
                     enabled: checkUpdatesCheckbox.checked
                     checked: UM.Preferences.getValue("info/latest_update_source") == "stable"
@@ -936,6 +953,7 @@ UM.PreferencesPage
                 anchors.leftMargin: UM.Theme.getSize("default_margin").width
                 RadioButton
                 {
+
                     exclusiveGroup: curaUpdatesGroup
                     enabled: checkUpdatesCheckbox.checked
                     checked: UM.Preferences.getValue("info/latest_update_source") == "beta"
@@ -957,6 +975,7 @@ UM.PreferencesPage
                 CheckBox
                 {
                     id: pluginNotificationsUpdateCheckbox
+
                     checked: boolCheck(UM.Preferences.getValue("info/automatic_plugin_update_check"))
                     onCheckedChanged: UM.Preferences.setValue("info/automatic_plugin_update_check", checked)
                 }
