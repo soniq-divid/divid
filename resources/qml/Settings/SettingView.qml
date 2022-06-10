@@ -3,7 +3,7 @@
 
 import QtQuick 2.7
 import QtQuick.Controls 1.1
-import QtQuick.Controls.Styles 1.1
+import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.2
 
 import UM 1.2 as UM
@@ -536,6 +536,17 @@ Item
 
                     onTriggered: Cura.Actions.configureSettingVisibility.trigger(contextMenu);
                 }
+                style: MenuStyle {
+                    itemDelegate.label: Label {                
+                        font: UM.Theme.getFont("default")
+                        color: styleData.selected || styleData.open ? "white" : "black"
+                        text: styleData.text
+                    }
+                    itemDelegate.background: Rectangle {
+                        color: styleData.selected || styleData.open ? UM.Theme.getColor("zmorph_grey") : "white"
+                        radius: styleData.selected ? 3 : 0 
+                    }
+                }    
             }
 
             UM.SettingPropertyProvider
