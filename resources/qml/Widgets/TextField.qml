@@ -24,8 +24,6 @@ TextField
     selectByMouse: true
     font: UM.Theme.getFont("default")
     color: UM.Theme.getColor("text")
-    selectionColor: UM.Theme.getColor("zmorph_grey")
-    selectedColor: "white"
     renderType: Text.NativeRendering
     leftPadding: iconLeft.visible ? iconLeft.width + UM.Theme.getSize("default_margin").width * 2 : UM.Theme.getSize("thin_margin").width
 
