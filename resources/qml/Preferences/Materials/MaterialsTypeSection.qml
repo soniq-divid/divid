@@ -64,6 +64,7 @@ Item
             width: parent.width - parent.leftPadding - UM.Theme.getSize("favorites_button").width
             id: material_type_name
             verticalAlignment: Text.AlignVCenter
+            font: UM.Theme.getFont("default")
         }
         Item // this one causes lots of warnings
         {

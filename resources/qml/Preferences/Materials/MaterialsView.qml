@@ -126,7 +126,7 @@ TabView
                     onRejected: no()
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Display Name") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Display Name"); font: UM.Theme.getFont("default") }
                 ReadOnlyTextField
                 {
                     id: displayNameTextField;
@@ -136,7 +136,7 @@ TabView
                     onEditingFinished: base.updateMaterialDisplayName(properties.name, text)
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Brand") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Brand"); font: UM.Theme.getFont("default") }
                 ReadOnlyTextField
                 {
                     id: brandTextField;
@@ -146,7 +146,7 @@ TabView
                     onEditingFinished: base.updateMaterialBrand(properties.brand, text)
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Material Type") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Material Type"); font: UM.Theme.getFont("default") }
                 ReadOnlyTextField
                 {
                     id: materialTypeField;
@@ -156,7 +156,7 @@ TabView
                     onEditingFinished: base.updateMaterialType(properties.material, text)
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Color") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Color"); font: UM.Theme.getFont("default") }
                 Row
                 {
                     width: scrollView.columnWidth
@@ -206,9 +206,9 @@ TabView
 
                 Item { width: parent.width; height: UM.Theme.getSize("default_margin").height }
 
-                Label { width: parent.width; height: parent.rowHeight; font.bold: true; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Properties") }
+                Label { width: parent.width; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Properties"); font: UM.Theme.getFont("default") }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Density") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Density"); font: UM.Theme.getFont("default") }
                 ReadOnlySpinBox
                 {
                     id: densitySpinBox
@@ -223,7 +223,7 @@ TabView
                     onValueChanged: updateCostPerMeter()
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Diameter") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Diameter"); font: UM.Theme.getFont("default") }
                 ReadOnlySpinBox
                 {
                     id: diameterSpinBox
@@ -257,7 +257,7 @@ TabView
                     onValueChanged: updateCostPerMeter()
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament Cost") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament Cost"); font: UM.Theme.getFont("default") }
                 SpinBox
                 {
                     id: spoolCostSpinBox
@@ -279,7 +279,7 @@ TabView
                     }
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament weight") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament weight"); font: UM.Theme.getFont("default") }
                 SpinBox
                 {
                     id: spoolWeightSpinBox
@@ -302,7 +302,7 @@ TabView
                     }
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament length") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Filament length"); font: UM.Theme.getFont("default") }
                 Label
                 {
                     width: scrollView.columnWidth
@@ -311,7 +311,7 @@ TabView
                     height: parent.rowHeight
                 }
 
-                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Cost per Meter") }
+                Label { width: scrollView.columnWidth; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Cost per Meter"); font: UM.Theme.getFont("default") }
                 Label
                 {
                     width: scrollView.columnWidth
@@ -343,7 +343,7 @@ TabView
 
                 Item { width: parent.width; height: UM.Theme.getSize("default_margin").height }
 
-                Label { width: parent.width; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Description") }
+                Label { width: parent.width; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Description"); font: UM.Theme.getFont("default") }
 
                 ReadOnlyTextArea
                 {
@@ -356,7 +356,7 @@ TabView
                     onEditingFinished: base.setMetaDataEntry("description", properties.description, text)
                 }
 
-                Label { width: parent.width; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Adhesion Information") }
+                Label { width: parent.width; height: parent.rowHeight; verticalAlignment: Qt.AlignVCenter; text: catalog.i18nc("@label", "Adhesion Information"); font: UM.Theme.getFont("default") }
 
                 ReadOnlyTextArea
                 {

@@ -85,7 +85,7 @@ Item
             right: parent.right
             margins: 5 * screenScaleFactor
         }
-        font.pointSize: 18
+        font: UM.Theme.getFont("huge_bold")
         text: catalog.i18nc("@title:tab", "Materials")
     }
 
@@ -259,6 +259,7 @@ Item
             }
             width: materialScrollView.width
             elide: Text.ElideRight
+            font: UM.Theme.getFont("default")
         }
 
         ScrollView

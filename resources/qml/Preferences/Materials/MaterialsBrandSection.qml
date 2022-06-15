@@ -51,6 +51,7 @@ Item
             width: parent.width - UM.Theme.getSize("favorites_button").width
             verticalAlignment: Text.AlignVCenter
             leftPadding: (UM.Theme.getSize("default_margin").width / 2) | 0
+            font: UM.Theme.getFont("default")
         }
         Item
         {

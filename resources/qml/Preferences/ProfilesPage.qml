@@ -30,7 +30,7 @@ Item
             right: parent.right
             margins: 5 * screenScaleFactor
         }
-        font.pointSize: 18
+        font: UM.Theme.getFont("huge_bold")
         text: catalog.i18nc("@title:tab", "Profiles")
     }
 
@@ -456,7 +456,7 @@ Item
                         anchors.left: parent.left
                         anchors.leftMargin: UM.Theme.getSize("default_lining").width
                         text: section
-                        font.bold: true
+                        font: UM.Theme.getFont("default_bold")
                     }
                 }
 
@@ -479,19 +479,20 @@ Item
                         width: Math.floor((parent.width * 0.8))
                         text: model.name
                         elide: Text.ElideRight
-                        font.italic:
-                        {
-                            if (model.is_read_only)
-                            {
-                                // For built-in qualities, it needs to match both the intent category and the quality name
-                                return model.name == Cura.MachineManager.activeQualityOrQualityChangesName && model.intent_category == Cura.MachineManager.activeIntentCategory
-                            }
-                            else
-                            {
-                                // For custom qualities, it only needs to match the name
-                                return model.name == Cura.MachineManager.activeQualityOrQualityChangesName
-                            }
-                        }
+                        font: UM.Theme.getFont("default")
+                        // font.italic:
+                        // {
+                        //     if (model.is_read_only)
+                        //     {
+                        //         // For built-in qualities, it needs to match both the intent category and the quality name
+                        //         return model.name == Cura.MachineManager.activeQualityOrQualityChangesName && model.intent_category == Cura.MachineManager.activeIntentCategory
+                        //     }
+                        //     else
+                        //     {
+                        //         // For custom qualities, it only needs to match the name
+                        //         return model.name == Cura.MachineManager.activeQualityOrQualityChangesName
+                        //     }
+                        // }
                         color: parent.isCurrentItem ? "white" : palette.text
                     }
 

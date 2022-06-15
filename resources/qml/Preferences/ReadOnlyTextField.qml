@@ -52,6 +52,7 @@ Item
         anchors.left: parent.left
         anchors.leftMargin: textField.__panel ? textField.__panel.leftMargin : 0
 
+        font: UM.Theme.getFont("default")
         color: palette.buttonText
     }
 

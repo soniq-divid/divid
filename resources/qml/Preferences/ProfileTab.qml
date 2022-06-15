@@ -60,9 +60,10 @@ Tab
                         }
                         return (styleData.value.substr(0,1) == "=") ? catalog.i18nc("@info:status", "Calculated") : styleData.value
                     }
-                    font.strikeout: styleData.column == 1 && setting.user_value != "" && base.isQualityItemCurrentlyActivated
-                    font.italic: setting.profile_value_source == "quality_changes" || (setting.user_value != "" && base.isQualityItemCurrentlyActivated)
-                    opacity: font.strikeout ? 0.5 : 1
+                    font: UM.Theme.getFont("default")
+                    // font.strikeout: styleData.column == 1 && setting.user_value != "" && base.isQualityItemCurrentlyActivated
+                    // font.italic: setting.profile_value_source == "quality_changes" || (setting.user_value != "" && base.isQualityItemCurrentlyActivated)
+                    // opacity: font.strikeout ? 0.5 : 1
                     color: styleData.textColor
                     elide: Text.ElideRight
                 }
@@ -103,7 +104,7 @@ Tab
         section.delegate: Label
         {
             text: section
-            font.bold: true
+            font: UM.Theme.getFont("default_bold")
         }
 
         model: Cura.QualitySettingsModel
