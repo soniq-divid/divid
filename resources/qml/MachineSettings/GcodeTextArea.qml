@@ -92,6 +92,8 @@ UM.TooltipArea
                     propertyProvider.setPropertyValue("value", text)
                 }
             }
+            selectionColor: UM.Theme.getColor("zmorph_grey")
+            selectedTextColor: "white"
         }
     }
 }

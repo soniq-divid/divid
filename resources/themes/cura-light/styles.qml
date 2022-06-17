@@ -495,7 +495,7 @@ QtObject
             textColor: UM.Theme.getColor("setting_control_text")
             placeholderTextColor: UM.Theme.getColor("setting_control_text")
             font: UM.Theme.getFont("default")
-
+            selectionColor: UM.Theme.getColor("zmorph_grey")
             background: Rectangle
             {
                 implicitHeight: control.height;

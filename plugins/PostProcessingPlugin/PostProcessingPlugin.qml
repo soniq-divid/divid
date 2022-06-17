@@ -118,7 +118,7 @@ UM.Dialog
                         {
                             background: Rectangle
                             {
-                                color: activeScriptButton.checked ? palette.highlight : "transparent"
+                                color: activeScriptButton.checked ? UM.Theme.getColor("zmorph_grey") : "transparent"
                                 width: parent.width
                                 height: parent.height
                             }
@@ -127,7 +127,7 @@ UM.Dialog
                                 wrapMode: Text.Wrap
                                 text: control.text
                                 elide: Text.ElideRight
-                                color: activeScriptButton.checked ? palette.highlightedText : palette.text
+                                color: activeScriptButton.checked ? "white" : "black"
                             }
                         }
                     }

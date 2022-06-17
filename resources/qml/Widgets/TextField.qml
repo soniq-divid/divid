@@ -26,7 +26,8 @@ TextField
     color: UM.Theme.getColor("text")
     renderType: Text.NativeRendering
     leftPadding: iconLeft.visible ? iconLeft.width + UM.Theme.getSize("default_margin").width * 2 : UM.Theme.getSize("thin_margin").width
-
+    selectionColor: UM.Theme.getColor("zmorph_grey")
+    selectedTextColor: "white"
     states: [
         State
         {

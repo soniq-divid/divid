@@ -109,6 +109,8 @@ Item
             style: TextFieldStyle
             {
                 textColor: UM.Theme.getColor("text_scene")
+                selectionColor: UM.Theme.getColor("zmorph_divid")
+                selectedTextColor: "white"
                 font: UM.Theme.getFont("default")
                 background: Rectangle
                 {

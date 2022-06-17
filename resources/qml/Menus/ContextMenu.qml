@@ -3,6 +3,7 @@
 
 import QtQuick 2.2
 import QtQuick.Controls 1.1
+import QtQuick.Controls.Styles 1.4
 import QtQuick.Dialogs 1.2
 import QtQuick.Window 2.1
 
@@ -148,6 +149,11 @@ Menu
                 focus: true
                 minimumValue: 1
                 maximumValue: 99
+                style: SpinBoxStyle {
+                    selectionColor: UM.Theme.getColor("zmorph_grey")
+                    selectedTextColor: "white"
+                    horizontalAlignment: Qt.AlignLeft
+                }
             }
         }
     }
@@ -170,6 +176,23 @@ Menu
             }
         }
         return -1;
+    }
+    style: MenuStyle {
+        itemDelegate.label: Label {
+            function replaceText(txt) {
+                var index = txt.indexOf("&");
+                if (index >= 0)
+                    txt = txt.replace(txt.substr(index, 2), ("<u>" + txt.substr(index + 1, 1) + "</u>"));
+                    return txt;
+            }
+            font: UM.Theme.getFont("default")
+            color: styleData.selected || styleData.open ? "white" : "black"
+            text: replaceText(styleData.text)
+        }
+        itemDelegate.background: Rectangle {
+            color: styleData.selected || styleData.open ? UM.Theme.getColor("zmorph_grey") : "white"
+            radius: styleData.selected ? 3 : 0
+        }
     }
 
     UM.I18nCatalog { id: catalog; name: "cura" }

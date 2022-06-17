@@ -141,7 +141,8 @@ UM.TooltipArea
         font: UM.Theme.getFont("default")
         color: UM.Theme.getColor("text")
         renderType: Text.NativeRendering
-
+        selectionColor: UM.Theme.getColor("zmorph_grey")
+        selectedTextColor: "white"
         // When the textbox gets focused by TAB, select all text
         onActiveFocusChanged:
         {
