@@ -154,6 +154,7 @@ SettingItem
                 base.focusGainedByClick = false;
             }
 
+            // color: !enabled ? UM.Theme.getColor("setting_control_disabled_text") : UM.Theme.getColor("setting_control_text")
             font: UM.Theme.getFont("default")
             selectionColor: UM.Theme.getColor("zmorph_grey")
             selectedTextColor: "white"
