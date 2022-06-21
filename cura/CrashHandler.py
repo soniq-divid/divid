@@ -349,7 +349,7 @@ class CrashHandler:
         # Look for plugins. If it's not a plugin, the current cura version is set
         isPlugin = False
         module_version = self.cura_version
-        module_name = "Divid"
+        module_name = "Cura"
         if split_path.__contains__("plugins"):
             isPlugin = True
             # Look backwards until plugin.json is found
