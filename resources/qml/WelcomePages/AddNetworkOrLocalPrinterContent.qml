@@ -25,7 +25,7 @@ Item
         color: UM.Theme.getColor("primary_button")
         font: UM.Theme.getFont("huge")
     }
-
+/*
     DropDownWidget
     {
         id: addNetworkPrinterDropDown
@@ -74,7 +74,7 @@ Item
             }
         }
     }
-
+*/
     DropDownWidget
     {
         id: addLocalPrinterDropDown
@@ -85,6 +85,7 @@ Item
         anchors.topMargin: UM.Theme.getSize("default_margin").height
 
         title: catalog.i18nc("@label", "Add a non-networked printer")
+        contentShown: true  // by default expand the network printer list
 
         onClicked:
         {
