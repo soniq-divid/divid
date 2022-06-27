@@ -1,14 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.48 197.18">
-    <g fill="none" stroke="#061884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <rect fill="#F3F8FE" x="41.57" y="9.26" width="242.34" height="169.32" rx="6.1" /> <!-- Border of screen. -->
-        <rect fill="white" stroke="none" x="52.88" y="20.57" width="219.73" height="155.91" /> <!-- Screen background colour. -->
-        <rect x="49.88" y="17.57" width="225.73" height="155.91" rx="2" /> <!-- Screen inner bezel. -->
-        <line x1="14.64" y1="187.91" x2="310.85" y2="187.91" /> <!-- Table. -->
-        <path fill="#F3F8FE" d="M305.63,172.43 a15.48,15.48, 0,0,1, -15.48,15.48 H35.34 a15.48,15.48, 0,0,1, -15.48,-15.48 a1,1, 0,0,1, 1,-1 H304.63 a1,1, 0,0,1, 1,1 Z" /> <!-- Body. -->
-    </g>
-    <path fill="#061884" d="M185.24,172.43 h-45 v0.6 a4.4,4.4, 0,0,0, 4.4,4.4 h36.21 a4.4,4.4, 0,0,0, 4.4-4.4 Z" /> <!-- Touchpad. -->
-    <g fill="none" stroke="#2C3278" stroke-width="2" stroke-linecap="round">
-        <polygon points="180.22,140.51 117.36,140.51 117.36,77.7 144.3,50.78 207.16,50.78 207.16,113.59 180.22,140.51" /> <!-- Cura logo border. -->
-        <path class="cls-7" d="M175.73,73.21 H162.26 a22.44,22.44, 0,1,0, 0,44.87 H175.73" /> <!-- Letter C. -->
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 325.5 197.2" style="enable-background:new 0 0 325.5 197.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#202D35;}
+	.st1{fill:url(#Subtraction_51_00000033352742412088391560000017443492298440350651_);}
+	.st2{fill:#F2FF00;}
+</style>
+<g id="Group_460" transform="translate(-294 -402)">
+	<g id="Group_458" transform="translate(294 402)">
+		<rect id="Rectangle_1294" x="64.2" class="st0" width="197.2" height="197.2"/>
+		<g id="Divid_sygnet" transform="translate(64.003 63.766)">
+			
+				<linearGradient id="Subtraction_51_00000027605162646866085590000006217537598320363651_" gradientUnits="userSpaceOnUse" x1="-195.9401" y1="452.9886" x2="-196.611" y2="453.6794" gradientTransform="matrix(127.836 0 0 -127.837 25178.1172 57987.6289)">
+				<stop  offset="0" style="stop-color:#EFEFEF"/>
+				<stop  offset="1" style="stop-color:#202D35"/>
+			</linearGradient>
+			<path id="Subtraction_51" style="fill:url(#Subtraction_51_00000027605162646866085590000006217537598320363651_);" d="
+				M123.4,83.8H49.6v-98.5h73.8L148,10v49.2L123.4,83.8z M74.2,10v49.2l39.2,0.1l10-10V19.8l-9.8-9.8L74.2,10L74.2,10z"/>
+			<path id="Path_6668" class="st2" d="M49.4-14.7h24.6V10H49.4V-14.7z"/>
+		</g>
+	</g>
+</g>
 </svg>
