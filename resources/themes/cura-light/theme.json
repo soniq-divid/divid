@@ -227,8 +227,8 @@
         "icon": "accent_2",
 
         "primary_button": "accent_1",
-        "primary_button_hover": [16, 70, 156, 255],
-        "primary_button_text": [255, 255, 255, 255],
+        "primary_button_hover": [242, 200, 0, 255],
+        "primary_button_text": [0, 0, 0, 255],
 
         "secondary_button": "background_1",
         "secondary_button_shadow": [216, 216, 216, 255],
