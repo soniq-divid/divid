@@ -296,7 +296,7 @@
 
         "scrollbar_background": [255, 255, 255, 255],
         "scrollbar_handle": "accent_2",
-        "scrollbar_handle_hover": "accent_1",
+        "scrollbar_handle_hover": "accent_2",
         "scrollbar_handle_down": "accent_2",
 
         "setting_category": "background_1",
@@ -336,6 +336,7 @@
 
         "quality_slider_unavailable": [179, 179, 179, 255],
         "quality_slider_available": [0, 0, 0, 255],
+        "quality_slider_enabled": "accent_1",
 
         "checkbox": "background_1",
         "checkbox_hover": "background_1",
