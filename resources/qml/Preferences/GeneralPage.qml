@@ -268,24 +268,24 @@ UM.PreferencesPage
                     onTextChanged: UM.Preferences.setValue("cura/currency", text)
                 }
 
-                UM.Label
-                {
-                    id: themeLabel
-                    text: catalog.i18nc("@label: Please keep the asterix, it's to indicate that a restart is needed.", "Theme*:")
-                }
+                // UM.Label
+                // {
+                //     id: themeLabel
+                //     text: catalog.i18nc("@label: Please keep the asterix, it's to indicate that a restart is needed.", "Theme*:")
+                // }
 
-                ListModel
-                {
-                    id: themeList
+                // ListModel
+                // {
+                //     id: themeList
 
-                    Component.onCompleted: {
-                        var themes = UM.Theme.getThemes()
-                        for (var i = 0; i < themes.length; i++)
-                        {
-                            append({ text: themes[i].name.toString(), code: themes[i].id.toString() });
-                        }
-                    }
-                }
+                //     Component.onCompleted: {
+                //         var themes = UM.Theme.getThemes()
+                //         for (var i = 0; i < themes.length; i++)
+                //         {
+                //             append({ text: themes[i].name.toString(), code: themes[i].id.toString() });
+                //         }
+                //     }
+                // }
 
                 Cura.ComboBox
                 {
@@ -605,7 +605,7 @@ UM.PreferencesPage
                 UM.CheckBox
                 {
                     id: singleInstanceCheckbox
-                    text: catalog.i18nc("@option:check","Use a single instance of Cura")
+                    text: catalog.i18nc("@option:check","Use a single instance of Divid")
 
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance", checked)
