@@ -5,9 +5,10 @@ project(cura)
 cmake_minimum_required(VERSION 3.18)
 
 include(GNUInstallDirs)
-include(GetFromEnvironmentOrCache)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
+include(GetFromEnvironmentOrCache)
+
 
 set(URANIUM_DIR "${CMAKE_SOURCE_DIR}/../Uranium" CACHE PATH "The location of the Uranium repository")
 set(URANIUM_SCRIPTS_DIR "${URANIUM_DIR}/scripts" CACHE PATH "The location of the scripts directory of the Uranium repository")
