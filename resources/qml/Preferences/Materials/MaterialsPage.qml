@@ -94,7 +94,8 @@ UM.ManagementPage
                 importMaterialDialog.open();
             }
             enabled: Cura.MachineManager.activeMachine.hasMaterials
-        }
+        },
+
         // Cura.SecondaryButton
         // {
         //     id: syncMaterialsButton
