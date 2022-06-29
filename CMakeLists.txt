@@ -5,6 +5,7 @@ project(cura)
 cmake_minimum_required(VERSION 3.18)
 
 include(GNUInstallDirs)
+include(GetFromEnvironmentOrCache)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
