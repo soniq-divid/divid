@@ -30,7 +30,7 @@ GetFromEnvironmentOrCache(
         DESCRIPTION
             "Cura Extra Version Information"
         REQUIRED)
-set(CURA_APP_DISPLAY_NAME "${CURA_APP_DISPLAY_NAME_ZMORPH}. .${CURA_VERSION}")
+set(CURA_APP_DISPLAY_NAME "${CURA_APP_DISPLAY_NAME_ZMORPH} ${CURA_VERSION}")
 #set(CURA_VERSION "master" CACHE STRING "Version name of Cura")
 set(CURA_BUILDTYPE "" CACHE STRING "Build type of Cura, eg. 'PPA'")
 set(CURA_CLOUD_API_ROOT "" CACHE STRING "Alternative Cura cloud API root")
