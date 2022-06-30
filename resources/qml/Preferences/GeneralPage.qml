@@ -287,29 +287,29 @@ UM.PreferencesPage
                 //     }
                 // }
 
-                Cura.ComboBox
-                {
-                    id: themeComboBox
+                // Cura.ComboBox
+                // {
+                //     id: themeComboBox
 
-                    model: themeList
-                    textRole: "text"
-                    implicitWidth: UM.Theme.getSize("combobox").width
-                    height: currencyField.height
+                //     model: themeList
+                //     textRole: "text"
+                //     implicitWidth: UM.Theme.getSize("combobox").width
+                //     height: currencyField.height
 
-                    currentIndex:
-                    {
-                        var code = UM.Preferences.getValue("general/theme");
-                        for(var i = 0; i < themeList.count; ++i)
-                        {
-                            if(model.get(i).code == code)
-                            {
-                                return i
-                            }
-                        }
-                        return 0;
-                    }
-                    onActivated: UM.Preferences.setValue("general/theme", model.get(index).code)
-                }
+                //     currentIndex:
+                //     {
+                //         var code = UM.Preferences.getValue("general/theme");
+                //         for(var i = 0; i < themeList.count; ++i)
+                //         {
+                //             if(model.get(i).code == code)
+                //             {
+                //                 return i
+                //             }
+                //         }
+                //         return 0;
+                //     }
+                //     onActivated: UM.Preferences.setValue("general/theme", model.get(index).code)
+                // }
             }
 
             UM.TooltipArea
