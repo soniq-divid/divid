@@ -52,7 +52,6 @@ class CuraSplashScreen(QSplashScreen):
         # Since we don't know how much time actually passed, check how many intervals of 50 we had.
         self._loading_image_rotation_angle -= 10 * (time_since_last_update * 1000 / 50)
         self.repaint()
-
     # Override the mousePressEvent so the splashscreen doesn't disappear when clicked
     def mousePressEvent(self, mouse_event):
         pass
